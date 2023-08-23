@@ -30,7 +30,7 @@ theme:
 markdown_extensions:
   - search
   - awesome-pages:
-    order: desc      
+    order: asc      
   - admonition
   - pymdownx.arithmatex:
       generic: true
