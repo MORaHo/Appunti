@@ -8,6 +8,7 @@ nav:
 theme:
   name: material
   features:
+    - awesome-pages
     - navigation.tabs
     - navigation.sections
     - toc.integrate
