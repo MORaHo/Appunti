@@ -3,9 +3,6 @@ site_name: MkDocs Material Theme Test
 theme:
   name: material
   features:
-    - search
-    - awesome-pages:
-      order: asc      
     - navigation.tabs
     - navigation.sections
     - toc.integrate
@@ -31,6 +28,9 @@ theme:
       accent: purple
 
 markdown_extensions:
+  - search
+  - awesome-pages:
+    order: asc      
   - admonition
   - pymdownx.arithmatex:
       generic: true
