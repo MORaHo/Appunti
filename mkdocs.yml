@@ -1,8 +1,8 @@
 site_name: MkDocs Material Theme Test
 nav: 
   - Home: 'home.md'
-  - Ingegneria Elettrica: /Ingegneria Elettrica
-  - Costruzione delle Macchine: /Cosmac
+  - Ingegneria Elettrica: '/Ingegneria Elettrica'
+  - Costruzione delle Macchine: '/Cosmac'
 
 theme:
   name: material
