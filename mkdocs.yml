@@ -1,9 +1,4 @@
 site_name: MkDocs Material Theme Test
-nav: 
-  - Home: 'home.md'
-  - Ingegneria Elettrica: 'Ingegneria_Elettrica/'
-  - Fisica Tecnica: 'Fisica_Tecnica/'
-  - Costruzione delle Macchine: 'Costruzione_di_Macchine/'
 
 theme:
   name: material
