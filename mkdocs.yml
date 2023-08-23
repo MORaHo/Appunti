@@ -5,7 +5,7 @@ theme:
   features:
     - search
     - awesome-pages:
-      order: asc      
+      order: desc      
     - navigation.tabs
     - navigation.sections
     - toc.integrate
