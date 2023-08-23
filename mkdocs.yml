@@ -4,7 +4,8 @@ theme:
   name: material
   features:
     - search
-    - awesome-pages
+    - awesome-pages:
+      order: asc      
     - navigation.tabs
     - navigation.sections
     - toc.integrate
