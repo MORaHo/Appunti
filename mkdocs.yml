@@ -3,6 +3,7 @@ site_name: MkDocs Material Theme Test
 theme:
   name: material
   features:
+    - search
     - awesome-pages
     - navigation.tabs
     - navigation.sections
