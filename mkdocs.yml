@@ -5,7 +5,7 @@ theme:
   features:
     - search
     - awesome-pages:
-      order: desc 
+      order: asc      
     - navigation.tabs
     - navigation.sections
     - toc.integrate
@@ -31,8 +31,6 @@ theme:
       accent: purple
 
 markdown_extensions:
-  - awesome-pages:
-    order: desc      
   - admonition
   - pymdownx.arithmatex:
       generic: true
