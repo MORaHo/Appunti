@@ -11,6 +11,6 @@ share: true
 
 ## Test Header 2
 
-![](../images/Drawing 2023-08-22 23.38.00.excalidraw.png){: style="height:400px;width:400px"}
+![](../images/Drawing 2023-08-22 23.38.00.excalidraw.png){: class="center",style="height:400px;width:400px"}
 
 $$\frac{\alpha}{\sigma}$$
