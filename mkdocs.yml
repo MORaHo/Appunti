@@ -22,17 +22,17 @@ theme:
 
   palette:
     - scheme: default
+      primary: blue
+      accent: cyan
       toggle:
         name: Change to dark mode
         icon: material/weather-sunny
-        primary: blue
-        accent: cyan
-    - scheme:
+    - scheme: slate
+      primary: amber
+      accent: yellow
       toggle:
         name: Change to light mode
         icon: material/weather-night
-        primary: amber
-        accent: yellow
 
 markdown_extensions:
   - admonition
