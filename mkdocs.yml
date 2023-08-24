@@ -35,7 +35,7 @@ theme:
         icon: material/weather-night
 
   font:
-    code: Verdana
+    code: Calibri
 
 markdown_extensions:
   - admonition
