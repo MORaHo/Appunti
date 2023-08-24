@@ -34,6 +34,9 @@ theme:
         name: Change to light mode
         icon: material/weather-night
 
+font:
+  code: Helvetica
+
 markdown_extensions:
   - admonition
   - pymdownx.arithmatex:
