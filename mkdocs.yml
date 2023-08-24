@@ -20,6 +20,20 @@ theme:
     
   language: en
 
+  palette:
+    - scheme: default
+      toggle:
+        name: Change to dark mode
+        icon: material/weather-sunny
+        primary: blue
+        accent: cyan
+    - scheme:
+      toggle:
+        name: Change to light mode
+        icon: material/weather-night
+        primary: amber
+        accent: yellow
+
 markdown_extensions:
   - admonition
   - pymdownx.arithmatex:
