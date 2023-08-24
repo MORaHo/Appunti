@@ -11,6 +11,9 @@ share: true
 
 ## Test Header 2
 
-![](../images/Drawing 2023-08-22 23.38.00.excalidraw.png){: .center }
+![](../images/Drawing 2023-08-22 23.38.00.excalidraw.png){: display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
 
 $$\frac{\alpha}{\sigma}$$
