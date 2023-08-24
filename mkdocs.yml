@@ -35,7 +35,7 @@ theme:
         icon: material/weather-night
 
 font:
-  code: Helvetica
+  code: Roboto
 
 markdown_extensions:
   - admonition
