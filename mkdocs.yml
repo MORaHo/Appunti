@@ -1,8 +1,10 @@
-site_name: MkDocs Material Theme Test
+site_name: Appunti Digitalizzati
 
 theme:
   name: material
+  
   features:
+  
     - search
     - awesome-pages:
       order_by: filename
@@ -15,25 +17,8 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    
   language: en
-
-  palette: 
-
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/weather-sunny 
-        name: Switch to dark mode
-        primary: teal
-        accent: lime
-
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
-        primary: teal
-        accent: lime
 
 markdown_extensions:
   - admonition
