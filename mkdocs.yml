@@ -21,14 +21,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-        primary: amber
+        primary: teal
         accent: lime
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: teal
-      accent: purple
+      primary: yellow
+      accent: lime
 
 markdown_extensions:
   - admonition
