@@ -35,7 +35,7 @@ theme:
         icon: material/weather-night
 
 font:
-  code: Lato
+  code: Spline Sans Mono
 
 markdown_extensions:
   - admonition
