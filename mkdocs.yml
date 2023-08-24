@@ -27,6 +27,8 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+        primary: teal
+        accent: purple
 
 markdown_extensions:
   - admonition
