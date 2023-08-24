@@ -10,8 +10,9 @@ theme:
       order_by: filename
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
+    - toc.follow
     - navigation.top
+    - navigation.path
     - search.suggest
     - search.highlight
     - content.tabs.link
