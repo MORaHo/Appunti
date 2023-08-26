@@ -2,13 +2,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-}
-
-.wide_center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  max-width:  550px;
+  max-height: 300px;
 }
 

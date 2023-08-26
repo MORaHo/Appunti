@@ -8,6 +8,7 @@ theme:
     - search
     - awesome-pages:
       order_by: filename
+    - navigation.path
     - navigation.tabs
     - navigation.sections
     - toc.follow
@@ -39,6 +40,9 @@ theme:
     code: Comic Sans
 
 markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
   - admonition
   - pymdownx.arithmatex:
       generic: true
