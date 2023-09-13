@@ -78,7 +78,7 @@ Puo' esser delimitato da diversi tipi di contorno:
 | Rigido                              | o   | Mobile                             |
 | Permeabile                          | o   | Impermeabile                       |
 | Conduttore(diatermico o diatermano) | o   | Isolante(Adiabatico)                                   |
-![](./images/Drawing 2023-09-13 19.54.37.excalidraw.png)
+![](../images/Drawing 2023-09-13 19.54.37.excalidraw.png)
 Un sistema e' detto isolato se e' chiuso, rigido e isolante
 
 ### Sistema ( __Semplice__ )

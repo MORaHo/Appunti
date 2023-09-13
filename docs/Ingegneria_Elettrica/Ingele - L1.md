@@ -45,7 +45,7 @@ I magneti non possono esser spezzati, perche' creerebbe  monopoli.
 ### Circuiti/Reti Elettriche
 
 Simboli per i circuiti:
-![](./images/Drawing 2023-09-13 19.45.34.excalidraw.png)
+![](../images/Drawing 2023-09-13 19.45.34.excalidraw.png)
 
 Nell'eletttricita anche se sono le cariche negative sono quelle che sono in flusso, viene rappresentata come carica positiva perche' e' come e' stato scelto secoli fa.
 
