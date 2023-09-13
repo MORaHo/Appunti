@@ -45,13 +45,13 @@ I magneti non possono esser spezzati, perche' creerebbe  monopoli.
 ### Circuiti/Reti Elettriche
 
 Simboli per i circuiti:
-![](../images/Drawing 2023-09-13 19.45.34.excalidraw.png)
+![](../images/Drawing 2023-09-13 19.45.34.excalidraw.png){: .center }
 
 Nell'eletttricita anche se sono le cariche negative sono quelle che sono in flusso, viene rappresentata come carica positiva perche' e' come e' stato scelto secoli fa.
 
 Il generatore o pila e' il generatore della tensione detta anche differenza di potenziale $[V]$ 
 
-i = corrente elettrica = $\frac{dq}{dt} $[A]$
+i = corrente elettrica = $\frac{dq}{dt}$ $[A]$
 
 Gli elettroni si spostano qualche centimetro all'ora, pero' la spinta causa gli elettroni che escono dall'filo alla velocita' della luce. Si puo' dire che gli elettroni non viaggiano alla velocita' della luca, ma la spinta elettromagnetica causata dal flusso degli elettroni che causa la reazione degli elettroni nel circuito.
 

@@ -67,7 +67,7 @@ elettrico, magnetico o gravitazionale); Ma in questo corso il campo elettromagne
 3. natura delle forze interne;
 4. natura vincoli interni.
 
-### Sistema( __Semplificato__ )
+### Sistema ( __Semplificato__ )
 
 Una sistema semplificato non e' soggetto a forze di massa(gravitazionale o elettromagnetica) o di superfice (tensione superficiale) e non e' reagente (assente di reazioni chimche e nucleari)
 
@@ -78,7 +78,9 @@ Puo' esser delimitato da diversi tipi di contorno:
 | Rigido                              | o   | Mobile                             |
 | Permeabile                          | o   | Impermeabile                       |
 | Conduttore(diatermico o diatermano) | o   | Isolante(Adiabatico)                                   |
-![](../images/Drawing 2023-09-13 19.54.37.excalidraw.png)
+
+![](../images/Drawing 2023-09-13 19.54.37.excalidraw.png){: .center }
+
 Un sistema e' detto isolato se e' chiuso, rigido e isolante
 
 ### Sistema ( __Semplice__ )
