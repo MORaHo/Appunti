@@ -30,19 +30,19 @@ Non si sa mai la energia assoluta mi si puo' approssimare con delle energie di r
 #### Chiuso o Aperto
 
 <! Diagramma sistema chiuso e aperto>
-![](./images/Drawing 2023-09-14 19.27.26.excalidraw.png)
+![](../images/Drawing 2023-09-14 19.27.26.excalidraw.png){: .center }
 
 ### Tipi di Contorni
 #### Rigido o Mobile ($\Delta$P)
 
 <! Diagramma >
-![](./images/Drawing 2023-09-14 19.34.26.excalidraw.png)
+![](../images/Drawing 2023-09-14 19.34.26.excalidraw.png){: .center }
 
 Un contorno rigido non permette il movimento delle particelle per permette il sistema a ritornare in equilibrio, invece un contorno mobile si puo' deformare per permette il sistema a raggiungere equilibrio con l'ambiente. Di solito e' associato con una disuguaglianza di pressione(P)
 #### Conduttore o Isolante ($\Delta$T)
 
 <! Diagramma >
-![](./images/Drawing 2023-09-14 19.39.47.excalidraw.png)
+![](../images/Drawing 2023-09-14 19.39.47.excalidraw.png){: .center }
 
 Un contorno conduttore permette la trasmissione di calore o elettricita' per permettere il sistema a raggiungere un equilibrio, invece un contorno isolate intrappola il calore e potenziale elettrico nel sistema termodinamico.
 
@@ -119,7 +119,7 @@ I processi termodinamici sono processi che portano un sistema da uno stato inizi
 Un processo spontaneo evolve spontaneamente **senza interazione con altri sistemi**. 
 
 <! Esempi >
-![](./images/Drawing 2023-09-14 19.44.23.excalidraw.png)
+![](../images/Drawing 2023-09-14 19.44.23.excalidraw.png){: .center }
 In questo esempio il pistone viene spinto in alto spontaneamente dalla differenza in pressione, il processo non genera lavoro. La batteria si scarica spontaneamente per ritornare in equilibrio con l'ambiente. La valvola permette che il gas esca per equilibrare la pressione.
 
 #### Processo Meccanico
@@ -127,14 +127,14 @@ In questo esempio il pistone viene spinto in alto spontaneamente dalla differenz
 L'unico effetto esterno e' sempre rappresentabile con la variazione di quota di un grave in un campo gravitazionale, cioe' il lavoro generato e' sempre rappresentabile e calcolabile dal movimento di una massa. I processi meccanici ricavano energia sfruttano la variazione in energia tra il sistema e l'ambiente.
 
 <! Esempio >
-![](./images/Drawing 2023-09-14 19.50.18.excalidraw.png)
+![](../images/Drawing 2023-09-14 19.50.18.excalidraw.png){: .center }
 
 #### Processo Reversibile (globalmente)
 
 Un processo reversibile globalmente esiste se esiste un modo di portare il sistema e ambiente allo stato iniziale senza lasciare trace all'esterno, cioe' senza perdere energia.
 
 <! Esempio >
-![](./images/Drawing 2023-09-14 19.54.20.excalidraw.png)
+![](../images/Drawing 2023-09-14 19.54.20.excalidraw.png){: .center }
 
 Un processo reversibile e' perfetto, cioe' non c'e' attrito e attraverso aggiunte infinitesimali il sistema puo' ritornare allo stato iniziale.
 
@@ -148,8 +148,8 @@ Una trasformazione quasi-statica e' una processo dove le onde causate da uno spo
 Per una trasformazione quasi-statica il tempo di trasformazione deve esser maggiore del tempo delle propagazione delle permutazioni interne.
 
 <! Esempio >
-![](./images/Drawing 2023-09-14 19.55.46.excalidraw.png)
-Il la velocita' di propagazione e' 25 volte piu' veloce del pistone, quindi si puo' dire che sia una transformazione quasi-statica.
+![](../images/Drawing 2023-09-14 19.55.46.excalidraw.png){: .center }
+La velocita' di propagazione e' 25 volte piu' veloce del pistone, quindi si puo' dire che sia una transformazione quasi-statica.
 
 Le onde viaggiano piu' velocemente del pistone, questo significa che invece di accumularsi davanti al pistone le particelle viaggiano piu' avanti e stabiliscono un nuovo equilibrio.
 

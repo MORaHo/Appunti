@@ -40,7 +40,7 @@ $\eta$ - valore di sicurezza - scelto
 - Sforzi e Deformazioni, legame elastico lineare
 - Analisi dello stato di sforzo
 	- <! Esempio >
-		![](./images/Drawing 2023-09-14 20.11.04.excalidraw.png)
+		![](../images/Drawing 2023-09-14 20.11.04.excalidraw.png){: .center }
 - Sollecitazioni limite
 - Effetto di taglio
 - Verifica di resistenza statica
