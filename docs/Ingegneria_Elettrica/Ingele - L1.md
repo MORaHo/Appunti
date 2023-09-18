@@ -7,7 +7,7 @@ share: true
 ---
 
 
-# LEzione 1 - Introduzione alla Ingegneria Elettrica
+# Lezione 1 - Introduzione alla Ingegneria Elettrica
 
 Per l'esame di Principi, l'esame dipende dal piano di corso.
 

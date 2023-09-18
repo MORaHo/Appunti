@@ -16,21 +16,21 @@ In questo corso inizieremo con la corrente diretta. Poi studieremo la corrente a
 La cosa piu' difficile nella manipolazione dell'elettricita' e' la accumulazione di tale energia. Le batterie hanno densita' energetiche rispetto agli idrocarburi come il petrolio, ma i motori a energia pura sono molto piu' efficienti dei motori a combustion interna.
 
 <! Disegno generatore di tensione ideale con v = dW/dq>
-![](./images/Drawing 2023-09-18 21.17.56.excalidraw.png)
+![](../images/Drawing 2023-09-18 21.17.56.excalidraw.png){: .center }
 
 In regime quasi-stazionario, i campi sono irrotazionali quindi idealmente non dissipano energia. Nel caso dei telefoni o linee di trasmissione che hanno frequenze elevate, il sistema viene portato fuori dal regime quasi-stazionario.
 
 <! Notazione della tensione>
-![](./images/Drawing 2023-09-18 21.22.excalidraw.png)
+![](../images/Drawing 2023-09-18 21.22.excalidraw.png){: .center }
 Tutte le tensioni sono uguali, non dipendono dal tragitto tra i punti ma solo la differenza in potenziale tra i due punti. Le frecce sono un simbolo della tensione e simboleggiano la direzione, si possono porre senza sapere la tensione precisa e 
 La tensione viene misurata usando un voltmetro. 
 <! Simbolo voltmetro>
-![](./images/Drawing 2023-09-18 21.25.excalidraw.png)
+![](../images/Drawing 2023-09-18 21.25.excalidraw.png){: .center }
 
 ## [Legge delle Tensioni](https://it.wikipedia.org/wiki/Leggi_di_Kirchhoff)
 
 <! DIagramma ciclo di tensioni>
-![](./images/2023-09-18 21.28.excalidraw.png)
+![](../images/2023-09-18 21.28.excalidraw.png){: .center }
 
 
 Se il campo e' conservative un percorso chiuso non occupa lavoro, dato un percorso chiuso $\implies$ $\sum_kv_k=0$
@@ -44,19 +44,18 @@ I circuiti sono modelli della realta' ma non sono la realta', nel senso che elem
 ## Resistori
 
 <! Diagramma circuito con resistore>
-![](./images/2023-09-18 21.31.excalidraw.png)
-
+![](../images/2023-09-18 21.31.excalidraw.png){: .center }
 
 I resistori sono elementi di circuiti che dissipano la tensione generata dall' generatore di tensione. Quanta tensione dissipano dipende dalla corrente che scorre nel sistema.
 
 ### Legge di Ohm
 
-$$V = iR$$
-$$i = \frac{dq}{dt}\rightarrow[A]$$
+$V = iR$<br />
+$i = \frac{dq}{dt}\rightarrow[A]$<br />
 Per la corrente la velocita' delle cariche non e' un fattore, importa solo che si spostano per generare corrente.
 
-Ogni materiale ha un resistenza, la resistenza dipende da fattori secondo la seguente equazione:
-$$R = \rho\cdot\frac{l}{s} $$
+Ogni materiale ha un resistenza, la resistenza dipende da fattori secondo la seguente equazione:<br />
+$R = \rho \cdot \frac{l}{s}$<br />
 In questa equazione $\rho$ e' la resistivita' del materiale in cui sta scorrendo la corrente, $l$ e' la lunghezza del materiale del pezzo di materiale e $s$ e' la area della superfice attraverso cui la corrente scorre.
 
 ### Tipi di Materiale
@@ -71,13 +70,13 @@ $vi = \frac{dW}{dq} \cdot \frac{dq}{dt} = \frac{dW}{dt} = P[W]$
 $P$ e' la potenza.
 
 <! Diagramma amperometro>
-![](./images/2023-09-18 21.36.excalidraw.png)
+![](../images/2023-09-18 21.36.excalidraw.png){: .center }
 L'amperometro e' l'elemento che misura la corrente in un circuito.
 
 ## [Convenzioni](https://it.wikipedia.org/wiki/Convenzione_degli_utilizzatori_e_dei_generatori)
 
 <! Diagramma convenzioni da wikipedia, perche nessuna di quelle che ho trovato ha uno sfondo>
-![](./images/2023-09-18 21.37.excalidraw.png)
+![](../images/2023-09-18 21.37.excalidraw.png){: .center }
 ### Convenzione degli utilizzatori
 
 Gli utilizzatori sono elementi che usano la potenza generata dai generatori, per questa ragione la direzione del flusso della corrente e la direzione della tensione sono opposti, questo permette fa in modo che i calcoli trovino una potenza $P<0$. In questa convenzione se si stabilisce una direzione per la corrente o la tensione, l'altro deve avere senso opposto, tale non e' vero per i generatori. Per ricordare piu' facilmente si puo' dire che gli utilizzatori creano tensioni dissipanti che cancellano le tensioni generate dai dissipati, quindi la direzione della tensione dissipativa e' opposta alla tensione generata dai generatori e alla direzione della corrente. Se la freccia avesse lo stesso verso della corrente, il tensione sarebbe negative, percio' per mantenere i segni per la Legge di Ohm si cambia il senso, mantenendo il valore positivo.
@@ -88,16 +87,16 @@ I generatori sono elementi che tendenzialmente generano tensione e potenza, e pe
 ## Circuiti con piu' elementi
 
 <! diagramma di circuiti a piu' elementi>
-![](./images/2023-09-18 21.42.excalidraw.png)
+![](../images/2023-09-18 21.42.excalidraw.png){: .center }
 
 Ci sono due tipi di orientamenti per elementi in circuiti. Gli elementi possono esser in serie, in questo caso gli elementi seguono l'un l'altro, e in parallelo posti su due rami diversi che divergono allo stesso morsetto.
 
 ## [Legge di Kirchhoff delle correnti](https://it.wikipedia.org/wiki/Leggi_di_Kirchhoff)
 
 <! Diagramma sistema S>
-![](./images/2023-09-18 21.51.excalidraw.png)
+![](../images/2023-09-18 21.51.excalidraw.png){: .center }
 
 In qualsiasi sistema S chiuso la corrente in entrata e uscita sono la stessa.
 $$\sum_{k}i_{k}\implies i_1+i_2-i_3$$
 <! Diagramma maglia e ramo monopolare>
-![](./images/2023-09-18 21.55.excalidraw.png)
+![](../images/2023-09-18 21.55.excalidraw.png){: .center }
