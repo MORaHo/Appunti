@@ -34,7 +34,8 @@ La cosa piu' importante da ricordare e' che le fasi, **F**, sono diverse degli s
 
 Gli stati di equilibrio vengono portati in equilibrio da processi/trasformazioni
 
-X$_{S.T.1}$ = $\{M_1,M_2,\cdots,M_n,V_1,P_1(t),P_2(t),\cdots,P_{n(t)\}}\rightarrow X_{S.T.2} = \{M_1,M_2,\cdots,M_n,V_2,P_1(t),P_2(t),\cdots,P_n(t)\}$
+$X_{S.T.1}$ = $\{M_1,M_2,\cdots,M_n,V_1,P_1(t),P_2(t),\cdots,P_{n(t)\}}\rightarrow$
+$X_{S.T.2} = \{M_1,M_2,\cdots,M_n,V_2,P_1(t),P_2(t),\cdots,P_n(t)\}$<br />
 Durante una trasformazione almeno una grandezza intensiva deve cambiare, in questo esempio il volume cambio se il contorno e' mobile. 
 
 ### Trasformazioni quasi-statiche
@@ -54,14 +55,14 @@ se ci sono trasformazioni e' impossibilie che ci sia un mutuo equilibrio perche'
 ## Energia
 
 <! Diagramma con i pezzi nelle camere>
-![](./images/Pasted image 20230919220635.png)
+![](../images/Pasted image 20230919220635.png){: .center }
 
 In questi casi, dato che il sistema e' chiuso, e l'energia entra nel sistema la energia totale del sistema deve aumentare continuamente e per effetto la temperatura nel sistema deve aumentare.
 
 ### Mulinello di Joule
 
 <! Diagramma del molinello>
-![](./images/Pasted image 20230919220703.png)
+![](../images/Pasted image 20230919220703.png){: .center }
 
 In questo caso il sistema e' il contenitore di acqua. L'energia del sistema non cambia prima e dopo il calo della massa, perche' alla inizio e alla fine la ventola e' ferma, questo indica che L $\neq \Delta E_{p}+ \Delta E_c$ .
 
@@ -109,7 +110,8 @@ Energia dentro all'atomo stesso, le forze forti e deboli che tengono insieme le 
 
 Con un cambio della energia sensibile non si cambia la natura delle molecole, invece con un cambio dell'energia chimica e nucleare la natura delle molecole cambia.
 
-$\Delta E_{TOT} = \underbrace{\Delta E_{p} + \Delta E_{c} + \Delta U}_{\text{PATRIMONIO ENERGETICO DEL SISTEMA}} = \text{SCAMBI DI ENERGIA ATTRAVERSO IL CONTORNO}$
+$\Delta E_{TOT} = \underbrace{\Delta E_{p} + \Delta E_{c} + \Delta U}_{\text{PATRIMONIO ENERGETICO DEL SISTEMA}} = \text{SCAMBI DI ENERGIA ATTRAVERSO IL CONTORNO}$<br />
+
 Gli scambi di energia si riconoscono solo se occorrono attraverso il contorno.
 
 Se il sistema e' formo nello spazio allora $\Delta E_p$ e $\Delta E_c$ = 0, questo e' importante perche' non ci importa sapere l'energia totale del sistema solo il cambio di energia che riusciamo a calcolare.
@@ -118,9 +120,9 @@ Le energie dinamiche sono le energie scambiate attraverso il contorno, nella ter
 
 Importante sapere che piu' grande e' $\Delta T$, piu' grande e' $\dot{Q}$ .
 
-$q = \frac{Q}{t} [\frac{kJ}{kg}]$
-$Q = \dot{Q}\cdot \Delta t  [kJ]$ 
-$Q = \int^{t_2}_{t_{1}}\dot{Q}\Delta t [kJ]$
+$q = \frac{Q}{t} [\frac{kJ}{kg}]$<br/>
+$Q = \dot{Q}\cdot \Delta t  [kJ]$ <br/>
+$Q = \int^{t_2}_{t_{1}}\dot{Q}\Delta t [kJ]$<br/>
 $\dot{Q} = \frac{dQ}{dt} \frac{[J]}{[s]} = [W]$ , $\ddot{Q} = \frac{d^2Q}{dt^2}$
 
 ### Storia del Calore
@@ -131,7 +133,7 @@ $\dot{Q} = \frac{dQ}{dt} \frac{[J]}{[s]} = [W]$ , $\ddot{Q} = \frac{d^2Q}{dt^2}$
 - Convezione
 	- Trasferimento di calore tra solido e liquido. Un trasferimdo di calore per convezione significa di particelle nei campi gravitazionali perche' il riscaldamento cambia la densita dell'area intorno, questo significa che in un campo gravitazionale e' impossibile che l'aria sia immobile se viene riscaldata per convezione.
 <! Diagamma convezione>
-![](./images/2023-09-19 22.07.excalidraw.png)
+![](../images/2023-09-19 22.07.excalidraw.png){: .center }
 - Irraggiamento
 	- Non serve materia come conduzione e convezione perche' il calore e' trasmesso attraverso onde e fotoni, quindi e' l'unico modo per trasferire calore nel vuoto.
 
@@ -144,7 +146,7 @@ Il calore usa la convenzione naturale dei segni, cioe' l'energia entrante e' pos
 Il lavoro e il calore sono energia dinamiche quindi i loro elementi infinitesimali non usano d ma il $\delta$ nella integrazione. Cioe' $\int^{2}_{1} \delta W = W_{12}$ e' come si scrive e non $\int^{2}_{1} dW = W_{12}$, questo e' perche' due processi possono usare energie diverse ed arrivare allo stesso punto se il grafico di scambio di energia non rappresenta lo scambio bene
 
 <! Diagramma grafico>
-![](./images/2023-09-19 22.10.excalidraw.png)
+![](../images/2023-09-19 22.10.excalidraw.png){: .center }
 
 In questo caso l'area nera e rosse sono diverse, pero' si arriva allo stesso punto, questo e' fisicamente impossibile pero' si puo' spiegare se si aggiungesse l'asse della temperatura, si vedrebbe che le temperature sono diverse pero' perche' il diagramma e' solo PV sono uguali e il diagramma sembra impossibile.
 
