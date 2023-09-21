@@ -9,6 +9,8 @@ share: true
 
 # Esercitazione 1 - Ripasso Concetti di Base
 
+Data: 21-09-23
+
 Esercitatore: Damiano Fustinoni
 Email: damiano.fustinoni@polimi.it
 Ricerca: www.thermolab.polimi.it
