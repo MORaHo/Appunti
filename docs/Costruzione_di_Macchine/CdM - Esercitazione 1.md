@@ -57,7 +57,7 @@ Per E)
 <! Diagramma somma dei momenti>
 ![](../images/Pasted image 20230921213612.png){: .center }
 
-$\sum M^E = M^E_{F_1} + M^E_{F_2} + M^E_{F_3} + M^E_{F_4} - -131,92 [Nm] \hat{k}$
+$\sum M^E = M^E_{F_1} + M^E_{F_2} + M^E_{F_3} + M^E_{F_4} = -131,92 [Nm] \hat{k}$
 
 Per C)
 
