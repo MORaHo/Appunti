@@ -20,7 +20,7 @@ Un equazione di stato e' un equazione che e' funzione delle variabili indipenden
 La forma implicita di un equazione di stato e' $f(x,y,z) = 0$, due variabili sono indipendenti e l'altra e' dipendente dalle altra due. E' uguale a zero perche' il sistema e' in equilibrio quindi non c'e' cambio.
 
 <! Diagramma chiuso rigido, impermeabile>
-![](./images/2023-09-21 17.48.excalidraw.png)
+![](../images/2023-09-21 17.48.excalidraw.png){: .center }
 
 A,B,C con equilibrio caratterizzati da
 $$\underbrace{(x,y)}_{A};\underbrace{(x',y')}_{B};\underbrace{(x'',y'')}_{C}$$
@@ -51,7 +51,7 @@ Un termoscopio e' cosa viene usato per rilevare grandezze termodinamiche. Un ter
 - Pressione - > $T = T(P)$ questo e' usato in termometri a gas e.g. He, con l'equazione $T = a+ bP +cP^2$ 
 - F.E.M - > $T = T(f.e.m)$ - Termocoppie
 <! Diagramma termocoppia>
-![](./images/2023-09-21 17.56.excalidraw.png)
+![](../images/2023-09-21 17.56.excalidraw.png){: .center }
 
 - Termoresistenza - > $T = T(R)$ questi sono materiali che cambiano a carte resistenze hanno temperature specifiche.
 
@@ -98,7 +98,7 @@ Un esempio puo' esser $f(P,V,T)$ dove P puo' dipendere da V e T, V puo' dipender
 La equazione di stato per i gas ideali e' $PV = nRT$, R e' stata derivata dal grafico di PV vs. T per alcuni gas, la media degli inclini e' stata presa come il costante universale dei gas ideali.
 
 <! Diagramma gas ideale>
-![](./images/2023-09-21 18.01.excalidraw.png)
+![](../images/2023-09-21 18.01.excalidraw.png){: .center }
 
 L'unico problema con il costante universale dei gas ideale e' che il gas ideale non esiste. Il gas costante anche se non funziona perfettamente puo' esser usato per approssimate molto bene, la approssimazione migliore per P basse e T alte, ma cose' alto e cose' basso cambia da gas in gas.
 
