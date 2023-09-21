@@ -7,7 +7,9 @@ child:
 share: true
 ---
 
-# Principio 0 della Termodinamica (Definizione della Temperatura)
+# Lezione 4 - Principio 0 della Termodinamica (Definizione della Temperatura)
+
+Data: 20-09-23
 
 Un equilibrio termico, meccanico e chimico creano l'equilibrio termodinamico. Se questa proprieta' sono omogenee nel sistema intero allora il sistema e' in equilibrio.
 
