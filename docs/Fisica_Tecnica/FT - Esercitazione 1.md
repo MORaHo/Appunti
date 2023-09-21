@@ -82,7 +82,7 @@ $[Q] \rightarrow \Delta U = Q^\underbrace{\leftarrow}_{\text{entrante}} - L^\und
 
 $[P] = \frac{[F]}{[A]} = \frac{[F]}{[L][L]} \rightarrow \frac{N}{m^2} = Pa \rightarrow$ Pascal
 
-<mark style="background: #C9CD65;">1atm = 101325 Pa = 760mmHg</mark>
+<mark style="background: #C9CD65;">1atm = 101325 Pa = 760mmHg</mark> <br />
 <mark style="background: #C9CD65;">$1bar = 10^5$ Pa</mark>
 
 Cambiando la forma della formula della pressione si trova:

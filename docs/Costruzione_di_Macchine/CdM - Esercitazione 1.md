@@ -18,7 +18,7 @@ $$\vec{a} = \begin{bmatrix}a_x\\a_y\\a_z\end{bmatrix} , \vec{b} = \begin{bmatrix
 Il prodotto scala e' il prodotto membro per membro, con questo si trova la proiezione tra vettori.
 
 <! Diagramma prodotto scalare>
-![](./images/2023-09-21 21.30.excalidraw.png)
+![](../images/2023-09-21 21.30.excalidraw.png){: .center }
 ### Prodotto Vettoriale
 
 $\vec{a} \times \vec{b} = \vec{c} = det|\begin{matrix}\hat{i} & \hat{j} & \hat{k} \\ a_x & a_y & a_z\\b_x & b_y & b_z\end{matrix}|$  = $\hat{i}(a_yb_z - a_zb_y) - \hat{j}(a_zb_z - a_zb_x) + \hat{k}(a_xb_y - a_yb_x)$ 
@@ -34,7 +34,7 @@ $\sum\vec{F}$ e $\sum\vec{M}$ la somma delle forze e la somma dei momenti viene 
 ## Esercizio 1
 
 <! Diagramma problema>
-![](./images/2023-09-21 21.31.excalidraw.png)
+![](../images/2023-09-21 21.31.excalidraw.png){: .center }
 
 AE = 500mm
 BE = 750 mm
@@ -55,7 +55,7 @@ Non cambia tra E e C per le forze
 Per E)
 
 <! Diagramma somma dei momenti>
-![](./images/Pasted image 20230921213612.png)
+![](../images/Pasted image 20230921213612.png){: .center }
 
 $\sum M^E = M^E_{F_1} + M^E_{F_2} + M^E_{F_3} + M^E_{F_4} - -131,92 [Nm] \hat{k}$
 
@@ -72,7 +72,7 @@ $M^C_{F_2} = -F_3 \cdot \vec{DE}$ e' cosi perche' $\vec{EC}$ e' parallalo alla f
 ### Terzo Metodo
 
 <! Diagramma Esercizio>
-![](./images/2023-09-21 21.36.excalidraw.png)
+![](../images/2023-09-21 21.36.excalidraw.png){: .center }
 
 AB = 500m (y) = DE
 BC = 500 (x) = CD
@@ -92,12 +92,12 @@ $\sum F_z^G = F_4+ F_1 + F_{2z} = 100N$
 Il terzo modo per calcolare i risultanti si fa muovendo le forze e aggiungendo al nuovo punto un momento uguale a quello che sarebbe stato generato se la forza fosse rimasta nello stesso posto. Spostando di nuovo il momenti e forze gia esistenti si spostano e nuovi momenti generati dalle forze spostate si aggiungo anche loro al nuovo punto.
 
 <! Diagramma movimento delle forze>
-![](./images/Pasted image 20230921214748.png)
+![](../images/Pasted image 20230921214748.png){: .center }
 
 Si trova il momento che sarebbe generato dalla forza lungo l'asse in cui viene messa. Facendo questo si semplificano i calcoli alle fine del problema.
 
 <! Diagramma e calcolo alla fine del problema>
-![](./images/Pasted image 20230921214811.png)
+![](../images/Pasted image 20230921214811.png){: .center }
 
 Alla destra c'e' il momento generato da $F_4$ rispetto al punto G, lungo ogni asse si trova aggiungendo ogni momento che abbiamo gia trovato e spostato lungo quella stessa asse.
 
@@ -106,8 +106,8 @@ Si trovano i momenti generati ad ogni passo per trovare il risultante del moment
 ## Esercizio 3
 
 <! Diagramma esercizio 2>
-![](./images/Pasted image 20230921214834.png)
+![](../images/Pasted image 20230921214834.png){: .center }
 ## Esercizio 4
 
 <! Diagramma esercizio 4>
-![](./images/Pasted image 20230921214854.png)
+![](../images/Pasted image 20230921214854.png){: .center }
