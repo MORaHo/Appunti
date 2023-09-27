@@ -9,15 +9,15 @@ share: true
 # Lezione 2 - Inizio del corso
 
 <! Diagramma equivalenza tra sistemi>
-![](./images/2023-09-23 17.12.excalidraw.png)
+![](../images/2023-09-23 17.12.excalidraw.png){: .center }
 
 In questo esempio, perche' i due sistemi siano equivalenti bisogna aggiungere un momento che cancella la rotazione intorno ad O che e' stata generata intorno ad O.
 
 $$M'_O = M_O + (O - O') \times F$$
 <! Esempio movimento forza>
-![](./images/2023-09-23 17.15.excalidraw.png)
+![](../images/2023-09-23 17.15.excalidraw.png){: .center }
 
-Come imparato nella [prima esercitazione](../CdM%20-%20Esercitazione%201.md#) se si vuole spostare una forza in un sistema bisogna aggiungere I momenti che sarebbero stati generati ad ogni passo tra quei due punti dalla stessa forza.
+Come imparato nella [prima esercitazione](./CdM%20-%20Esercitazione%201.md) se si vuole spostare una forza in un sistema bisogna aggiungere I momenti che sarebbero stati generati ad ogni passo tra quei due punti dalla stessa forza.
 
 ## Vincoli
 
@@ -50,17 +50,17 @@ I vincoli creano gradi di vincolo (GdV) che e' il numero di movimento che blocca
 L'incastro e' il vincolo definitivo, blocca ogni movimento possibile, percio' un sistema con un incastro non si puo' muovere.
 
 <! Diagramma incastro>
-![](./images/2023-09-23 17.17.excalidraw.png)
+![](../images/2023-09-23 17.17.excalidraw.png){: .center }
 #### Cerniera
 
 In una cerniera il movimento non e' permesso ma rotazione e' permessa. Questo di solito e' costruito con cuscinetti, che e' bloccato da spallamenti o anelli sieger per bloccare ogni movimento assiale. Se una cerniera non e' bloccata a terra permette i movimenti assoluti del sistema ma le aste connesse non sono si possono muovere in moti relativi.
 
 <! Diagramma Cerniera>
-![](./images/2023-09-23 17.20.excalidraw.png)
+![](../images/2023-09-23 17.20.excalidraw.png){: .center }
 #### Pattino e Manicotto
 
 <! Diagramma pattino e manicotto>
-![](./images/2023-09-23 17.21.excalidraw.png)
+![](../images/2023-09-23 17.21.excalidraw.png){: .center }
 
 I pattini e manicotti permettono movimenti in una sola direzione e non rotazione, la sola differenza e' la direzione di movimento rispetto al piano.
 
@@ -69,25 +69,25 @@ I pattini e manicotti permettono movimenti in una sola direzione e non rotazione
 Il carello permette la rotazione e il movimento parallelo al piano.
 
 <! Diagramma carello>
-![](./images/2023-09-23 17.28.excalidraw.png)
+![](../images/2023-09-23 17.28.excalidraw.png){: .center }
 #### Bipattino
 
 Il bipattino e' l'insieme di pattino e manicotto, 2 movimenti sono permessi e invece la rotazione e' bloccata.
 
 <! Diagramma bipattino>
-![](./images/2023-09-23 17.28.excalidraw.png)
+![](../images/2023-09-23 17.28.excalidraw.png){: .center }
 ## Esempi di Analisi Cinematica
 
 ### Albero
 
 <! Diagramma albero>
-![](./images/2023-09-23 17.42.excalidraw.png)
+![](../images/2023-09-23 17.42.excalidraw.png){: .center }
 
 Questo e' come si rappresenta un albero nella analisi cinematica, 
 ### Vincoli
 
 <! Diagrammi esempi>
-![](./images/2023-09-23 17.44.excalidraw.png)
+![](../images/2023-09-23 17.44.excalidraw.png){: .center }
 
 La differenza tra i GdL e GdV sono detti i gradi di liberta rimasti (GdL$_R$). Se i GdL$_R$ = 0 il sistema e' detto isostatico o labile, dipendendo da se si puo' muovere infinitesimamente o no. Se GdL$_R$ > 0 il sistema e' detto isostatico, cioe' non tutti i movimenti sono controllati dai vincoli. Invece se GdL$_R$ < 0, il sistema e' detto iperstatico, cioe' ci sono piu' di un vincolo per movimento, a questo punto i calcoli della analisi cinematica si basano sui materiali usati e la loro resistenza a stress invece della struttura stessa.
 
@@ -96,4 +96,4 @@ La differenza tra i GdL e GdV sono detti i gradi di liberta rimasti (GdL$_R$). S
 Ogni vincolo ha il suo numero di gradi di vincolo, quindi quando si guarda ad una struttura importa vedere se quali vincoli e se i vincolo sono a terra o no.
 
 <! Diagramma gradi di vincolo>
-![](./images/2023-09-23 17.48.excalidraw.png)
+![](../images/2023-09-23 17.48.excalidraw.png){: .center }

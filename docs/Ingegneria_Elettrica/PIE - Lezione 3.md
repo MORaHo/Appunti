@@ -36,7 +36,7 @@ Le convenzioni sono utilizzate per fare in modo che la Legge di Ohm sia vera.
 La convenzione degli utilizzatori e' tale che il senso della corrente e della tensione siano opposte, questo e' perche' l'utilizzatore "genera una tensione dissipativa" cioe' le tensione nello stesso verso della corrente e' negative attraverso l'utilizzatore, percio' per mantenere il segno per la legge di ohm si cambia la direzione della freccia della tensione. Dato che gli utilizzatori usano energia la loro potenza p>0. I resistori e lampadine sono esempi di utilizzatori.
 
 <!Diagrammi convenzioni>
-![](./images/2023-09-25 13.15.excalidraw.png)
+![](../images/2023-09-25 13.15.excalidraw.png){: .center }
 
 La convenzione degli utilizzatori e' diversa. Nella convenzione degli utilizzatori la direzione della corrente e della tensione attraverso il generatore non sono sempre uguali ma dipendono dal circuito e la topologia dei generatori nel sistema. La direzione della corrente e della tensione sono sempre uguali, cosa cambia e' se questa direzione e' normale o opposta. Se la direzione e' normale, cioe' il generatore sta generando, allora il generatore ha p<0, cioe' sta perdendo energia. Invece se la direzione e' opposta, cioe' il generatore sta ricaricando, p>0, cioe' sta guadagnando energia. La tensione generata dal generatore che sta ricaricando e' anche lei dissipativa ma ha effetto sul circuito intero. I generatori ideali di tensione e corrente sono esempi di generatori. Le pile sono generatori di corrente. In realta' non esiste un generatori di tensione, ma si possono usare generatori di corrente e resistenze per creare generatori di tensione, per creare elementi che agiscono cosi.
 
@@ -45,19 +45,19 @@ La convenzione degli utilizzatori e' diversa. Nella convenzione degli utilizzato
 ### Nuovi elementi di circuiti
 
 <!Diagramma condensatore>
-![](./images/2023-09-25 13.17.excalidraw.png)
+![](../images/2023-09-25 13.17.excalidraw.png){: .center }
 
 Un generatore connesso ad un condensatore non fa passare corrente perche' non c'e' posto per farlo girare.
 
 <!Diagramma Induttore>
-![](./images/2023-09-25 13.19.excalidraw.png)
+![](../images/2023-09-25 13.19.excalidraw.png){: .center }
 
 Con questi 5 bipoli ideali si possono rappresentare tutto, a parametri concentrati.
 
 ### Comportamenti al Limite
 
 <!Diagramma corto e circuito>
-![](./images/2023-09-25 13.20.excalidraw.png)
+![](../images/2023-09-25 13.20.excalidraw.png){: .center }
 
 Questo spiega molto come agisce un circuito a diversi punti, per esempio cosa succede quando si spegne un generatore, o se un pezzo di un circuito si rompe.
 
@@ -76,7 +76,7 @@ In un circuito con le pile la corrente e' sempre diretta, cioe' la direzione del
 La resistenza dei cavi si puo' trascurare, nei modelli.
 
 <!Diagramma circuito>
-![](./images/2023-09-25 13.25.excalidraw.png)
+![](../images/2023-09-25 13.25.excalidraw.png){: .center }
 
 Per risolvere un circuito bisogna prima trovare tutti i flussi di corrente linearmente indipendenti, poi usare la Legge di Kirchhoff delle tensioni, poi si usa la Legge di Kirchhoff delle correnti. Questo e' una parte del teorema fondamentale della elettrotecnica che verra' scritto dopo
 
@@ -88,7 +88,7 @@ In tutti e due i sistema la resistenza viene semplificata ad una resistenza equi
 ### Circuito in Serie
 
 <!Diagramma circuito e calcoli in serie>
-![](./images/2023-09-25 13.29.excalidraw.png)
+![](../images/2023-09-25 13.29.excalidraw.png){: .center }
 
 In serie si ha:
 
@@ -96,34 +96,34 @@ $$R_{eq} = \sum_k R_k$$
 #### Casi Particolari:
 
 <!Diagramma dei casi speciali>
-![](./images/2023-09-25 13.33.excalidraw.png)
+![](../images/2023-09-25 13.33.excalidraw.png){: .center }
 
 Se c'e' un circuito aperto, al resistenza fa all'infinito e la corrente non passa piu' per quella serie.
 
 ### Circuito in Parallelo
 
 <!Diagramma in parallelo>
-![](./images/2023-09-25 13.36.excalidraw.png)
+![](../images/2023-09-25 13.36.excalidraw.png){: .center }
 
 $$\frac{1}{R_{eq}} = \sum_k \frac{1}{R_k}$$
 #### Casi Particolari:
 
 <!Diagramma casi particolari parallelo>
-![](./images/2023-09-25 13.39.excalidraw.png)
+![](../images/2023-09-25 13.39.excalidraw.png){: .center }
 
 In caso di un corto circuito tutta la corrente nel sistema passa per il corto circuito e non importano piu' le altre resistenze. Durante un corto circuito la resistenza del cavo non e' piu' trascurabile, questo causa un riscaldamento e in seguito le fiamme che sono problematiche.
 
 ### Nodi
 
 <!Diagramma nodi>
-![](./images/2023-09-25 13.42.excalidraw.png)
+![](../images/2023-09-25 13.42.excalidraw.png){: .center }
 
 I nodi sono punti dove la corrente diverge. A tutti i nodi connessi per circuiti aperti viene dato lo stesso nome.
 
 ## Esempio
 
 <!Diagramma esempio>
-![](./images/2023-09-25 13.43.excalidraw.png)
+![](../images/2023-09-25 13.43.excalidraw.png){: .center }
 
 In questo caso il punto C sopra e sotto sono lo stesso punto, portandoli ad un punto si trova la resistenza equivalente, di piu' i punti A e B sono spostati che ci semplifica i calcoli
 
@@ -147,7 +147,7 @@ Queste incognite sono individuabili attraverso i legami costitutivi e le equazio
 ### Dimostrazione
 
 <!Diagramma circuito>
-![](./images/2023-09-25 13.48.excalidraw.png)
+![](../images/2023-09-25 13.48.excalidraw.png){: .center }
 
 In una qualsiasi rete ci sono n nodi. Per ogni modo si puo' scrivere una legge di Kirchhoff delle correnti e.g. : $i_1 - i_2 = 0$
 
@@ -159,14 +159,14 @@ Bisogna dimostrare che $l-n+1$ coincide con il numero di anelli nei circuiti.
 Alcuni esempi verificabili.
 
 <!Diagramma 2 lati, 2 nodi>
-![](./images/2023-09-25 13.57.excalidraw.png)
+![](../images/2023-09-25 13.57.excalidraw.png){: .center }
 
 Se lo stesso numero che gli anello allora e' giusto, perche' c'e' solo una legge di Kirchhoff.
 
 Aggiungendo una altro lato si ha:
 
 <!Diagramma 3 lati, 2 nodi>
-![](./images/2023-09-25 14.01.excalidraw.png)
+![](../images/2023-09-25 14.01.excalidraw.png){: .center }
 
 Di nuovo sono indipendenti. Questa formula vale per ogni numero di lati che aggiungi attraverso qualsiasi modalita' di aggiunta. Ha un numero do soluzioni indipendenti per dimostrare che il sistema ha una soluzioni unica.
 

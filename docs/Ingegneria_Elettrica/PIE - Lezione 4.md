@@ -19,7 +19,7 @@ Formula Fondamentali:
 - Parallelo - $\frac{1}{R_{eq}} = \sum_{k=1}^n \frac{1}{R_k}$
 
 <!Diagrammi e casi speciali>
-![](./images/2023-09-26 23.18.excalidraw.png)
+![](../images/2023-09-26 23.18.excalidraw.png){: .center }
 ## Partitori
 
 I partitori sono forme alternate di LKC e LKT che riducono i calcoli.
@@ -27,7 +27,7 @@ I partitori sono forme alternate di LKC e LKT che riducono i calcoli.
 ### Partitori di Tensione
 
 <!Diagramma>
-![](./images/2023-09-26 23.22.excalidraw.png)
+![](../images/2023-09-26 23.22.excalidraw.png){: .center }
 
 Solo in serie la Legge di Kirchhoff delle Correnti puo' esser usata, per trovare resistenze, correnti e tensioni.
 
@@ -37,12 +37,12 @@ $$V_k = \frac{R_k}{\sum_n R_n} \cdot V_{IN}$$
 Se una delle resistenze non e' in serie non puo' esser usata per in questa equazione.
 
 <!Diagramma caso no>
-![](./images/2023-09-26 23.24.excalidraw.png)
+![](../images/2023-09-26 23.24.excalidraw.png){: .center }
 
 ### Partitori di Corrente
 
 <!Diagramma Partitore>
-![](./images/2023-09-26 23.29.excalidraw.png)
+![](../images/2023-09-26 23.29.excalidraw.png){: .center }
 
 <u>Solo</u> in parallelo la equazione generale seguente puo' esser usata per trovare la corrente che sta attraversando un dei rami:
 
@@ -57,7 +57,7 @@ Questo teorema non da dimostrare, e' solo una base di altri teoremi che useremo.
 Per il teoremi fondamentale delle elettrotecnica il circuito non cambia se si sostituisce il bipolo con un generatore di corrente o tensione'
 
 <!Diagramma teorema>
-![](./images/2023-09-26 23.31.excalidraw.png)
+![](../images/2023-09-26 23.31.excalidraw.png){: .center }
 
 Non si usa perche' di solito non si sa la corrente o la tensione, quindi in effetti e' inutile.
 
@@ -69,5 +69,5 @@ Esempio:
 In questo esempio, vogliamo calcolare $I_1$ , quindi per creiamo due circuiti dove e' spento uno o l'altro generatore, poi calcoliamo $I_1'$ e $I_1''$, facendo la somma si trova $I_1$. Bisogna ricordarsi che i circuiti aperti hanno lo stesso tensione ai morsetti ma non passa corrente, e tedere a conto il verso delle correnti e tensioni, come nella seconda parte dove prendiamo la corrente nel verso sbagliato quindi dobbiamo determinare la relazione tra V e V$_1$ per mantenere il segno per la Legge di Ohm.
 
 <!Diagramma>
-![](./images/2023-09-26 23.34.excalidraw.png)
+![](../images/2023-09-26 23.34.excalidraw.png){: .center }
 

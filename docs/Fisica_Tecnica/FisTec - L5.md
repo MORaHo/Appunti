@@ -47,7 +47,7 @@ E$_T$ e' funzione di U e S
 E$_T$, S se volessimo rappresentare un sistema bisognerebbe un asse per ogni proprieta' dal sistema, per se fissiamo M$_i$ (o N$_i$) e V, le uniche proprieta' che cambiano sono U e S, che possiamo mettere un grafico semplice.
 
 <!Diagramma grafico U-S>
-![](./images/2023-09-27 14.51.excalidraw.png)
+![](../images/2023-09-27 14.51.excalidraw.png){: .center }
 ## Secondo Principio
 
 Fra tutti gli stati ben definiti, se fissato anche il valore delle energia interna, esiste solo uno stato di equilibrio.
@@ -67,14 +67,14 @@ L'energia utile non puo' mai aumentare durante un processo meccanico.
 ## Diagramma per un processo spontaneo
 
 <!Diagramma spontaneo>
-![](./images/2023-09-27 14.58.excalidraw.png)
+![](../images/2023-09-27 14.58.excalidraw.png){: .center }
 
 Nei processi spontanei non c'e' cambio nella energia interna, per arrivare allo stato di equilibrio tutta la energia utile/ disponibilita' adiabatica viene usata per aumentare l'entropia del sistema.
 
 ## Diagramma per un processo meccanico reversibile
 
 <!Diagramma reversibile>
-![](./images/2023-09-27 15.02.excalidraw.png)
+![](../images/2023-09-27 15.02.excalidraw.png){: .center }
 
 In un processo reversibile tutta le energia utile viene usata come lavoro, per questo la entropia non cambia durante questo processo.
 
@@ -85,18 +85,18 @@ E' possibile determinare la reversibilita' di una sistema. Se un sistema e' idea
 ## Diagramma per processi non ideali
 
 <!Diagramma processo non ideale>
-![](./images/2023-09-27 15.05.excalidraw.png)
+![](../images/2023-09-27 15.05.excalidraw.png){: .center }
 
 In un sistema non ideale, meno energia e' trasferita rispetto ad un sistema reversibile e c'e' un aumento in entropia. L'entropia agisce come una rappresentazione della energia inutile nel sistema.
 
 <!Diagramma reversibile>
-![](./images/2023-09-27 15.10.excalidraw.png)
+![](../images/2023-09-27 15.10.excalidraw.png){: .center }
 
 In un processo reversibile le energia massima usabile rimane uguale, cioe' non aumenta la energia inutile per cio' l'entropia.
 
 Se il processo non e' reversibile:
 <!Diagramma processo non reversibile>
-![](./images/2023-09-27 15.15.excalidraw.png)
+![](../images/2023-09-27 15.15.excalidraw.png){: .center }
 
 In un processo meccanica la quota di energia non disponibile aumenta in proporzione all'entropia. Per cio' si puo' scrivere:
 
@@ -108,14 +108,14 @@ Il processo e' meno reversibile per un aumento in S.
 ### Massima Entropia
 
 <!Diagramma>
-![](./images/2023-09-27 15.20.excalidraw.png)
+![](../images/2023-09-27 15.20.excalidraw.png){: .center }
 
 Tra tutti gli stati con la stessa energia, lo stato in equilibrio e' lo steso con la massima entropia.
 
 ### Energia Minima
 
 <!Diagramma>
-![](./images/2023-09-27 15.21.excalidraw.png)
+![](../images/2023-09-27 15.21.excalidraw.png){: .center }
 
 Tra gli stati con lo stesso S, lo stato ad equilibrio e' lo stato con minima energia.
 
@@ -139,19 +139,19 @@ Avendo V e M$_i$ fissi, possiamo dire che $S = S(U)$ e $U = U(S)$, che la base d
 Invece se V o M$_i$ non fossero fissi (per semplicita', V), si potrebbero creare grafici per descrivere il cambio tra $U$, $S$ e la proprieta'
 
 <!Diagramma>
-![](./images/2023-09-27 15.24.excalidraw.png)
+![](../images/2023-09-27 15.24.excalidraw.png){: .center }
 
 Per trasformazioni-quasi statiche il sistemi di equilibrio seguono le superfici generate.
 
 ## Derivazione di Equazioni
 
 <!Diagramma dopo pausa>
-![](./images/2023-09-27 15.26.excalidraw.png)
+![](../images/2023-09-27 15.26.excalidraw.png){: .center }
 
 Tutta la disponibilita' adiabatica e' stata degradata in aumento di entropia. Questo significa che il sistema ha raggiunto equilibrio trasformando la disponibilita' adiabatica in calore che aumenta l'entropia e per cio' arrivando all'equilibrio.
 
 <!Diagramma> 
-![](./images/2023-09-27 15.30.excalidraw.png)
+![](../images/2023-09-27 15.30.excalidraw.png){: .center }
 
 Usando il principio di stato si puo' ricavare $S = S(U,V,M_i)$, da cui si puo' ricavare anche $U = U(S,V,M_i)$. 
 
@@ -199,7 +199,7 @@ Dato che il sistema non e' isolato ma e' lo stesso chiuso, il contorno non perme
 $$\Delta U = \int_1^2dU = U_2 - U_1 = Q_{1,2\:IN} - L_{1,2\:OUT}$$
 $$\Delta S_{12} = \int_1^2dS = S_2 - S_1 = S_{1,2\:IN} + \underbrace{S_{IRR}}_{\text{sempre }\geq 0}$$
 <!Diagramma>
-![](./images/2023-09-27 15.32.excalidraw.png)
+![](../images/2023-09-27 15.32.excalidraw.png){: .center }
 
 S$_{1,2\:IN}$ e' l'energia entropia nella scambia con l'ambiente, positiva se ricevuta.
 

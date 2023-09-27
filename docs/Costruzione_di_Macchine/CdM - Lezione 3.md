@@ -35,7 +35,7 @@ Combinazione di rotazioni e traslazioni che puo' quasi sempre esser semplificato
 ### Esempio
 
 <!Diagramma roto-traslazione>
-![](./images/2023-09-24 11.19.excalidraw.png)
+![](../images/2023-09-24 11.19.excalidraw.png){: .center }
 
 Questo processo si puo' fare con ogni coppia di punti, anche con differenze infinitesimi.
 
@@ -54,7 +54,7 @@ Le traiettorie in piccolo, sono le linee tra punti AA' e BB' per cambi infinites
 ### Linearizzazione del moto rigido
 
 <!Diagramma linearizzazione>
-![](./images/2023-09-24 11.25.excalidraw.png)
+![](../images/2023-09-24 11.25.excalidraw.png){: .center }
 
 Lo spostamento e' $\hat{u} = \vec{x}' - \vec{x}$ cioe' u = $\rho[cos(\phi + \theta) - cos(\phi)]$ lungo l'asse x,  v = $\rho[sin(\phi + \theta) - sin(\phi)]$ lungo l'asse y e w = 0 lungo l'asse z. Questi sono i vettori di spostamento tra P e P'.
 
@@ -89,7 +89,7 @@ $d\vec{u} = d\theta\vec{e_a} \times \vec{x} = d\vec{\theta} \times \vec{x}$
 ### Applicazione
 
 <!Diagramma applicazione>
-![](./images/2023-09-24 11.37.excalidraw.png)
+![](../images/2023-09-24 11.37.excalidraw.png){: .center }
 
 GdL$_R$ = 0 percio' e' un candidato ad esser isostatico puo' muoversi ma non deve.
 
@@ -151,7 +151,7 @@ $y_{CIR} = \frac{u_o}{\theta} + y_o$
 Nel caso dove $\theta$ = 0, si sta descrivendo un sistema di movimento di traslazione pura, perche' CIR $\rightarrow (\infty, \infty)$ 
 
 <!Diagramma CIR traslazione pura>
-![](./images/2023-09-24 11.44.excalidraw.png)
+![](../images/2023-09-24 11.44.excalidraw.png){: .center }
 
 Al contrario, se non si riesce a trovare un CIR comune significa che il corpo rigido e' fermo e non si puo' muovere
 
@@ -167,21 +167,21 @@ La direzione del CIR e' molto importante.
 ### Incastro
 
 <!Diagramma calcoli>
-![](./images/2023-09-24 11.46.excalidraw.png)
+![](../images/2023-09-24 11.46.excalidraw.png){: .center }
 
 Non si può ' definire CIR per l'inastro perche' gli spostamenti sono nulli in tutti i casi.
 
 ### Cerniera
 
 <!Diagramma calcoli>
-![](./images/2023-09-24 11.48.excalidraw.png)
+![](../images/2023-09-24 11.48.excalidraw.png){: .center }
 
 La cerniera se stessa e' il CIR dato dal fatto che il corpo rigido puo' girare intorno alla cerniera e basta.
 
 ### Pattino
 
 <!Diagramma calcoli>
-![](./images/2023-09-24 11.51.excalidraw.png)
+![](../images/2023-09-24 11.51.excalidraw.png){: .center }
 
 Il pattino permette solo la traslazione pura, matematicamente e' equivalente ad una rotazione intorno ad un punto improprio all'infinito, percio' il CIR e' all'infinito nella direzione perpendicolare al piano.
 
@@ -194,7 +194,7 @@ Il carello permette:
 Dato che sono possibile due movimenti, bisogna considerare la combinazione di piu' moti simultaneamente, cioe' la combinazione lineare di tutti i moti possibile.
 
 <!Diagramma CIR>
-![](./images/2023-09-24 11.55.excalidraw.png)
+![](../images/2023-09-24 11.55.excalidraw.png){: .center }
 
 Calcolando tutti i moti, la combinazione lineare genera una linea di CIR possibile che attraversa il carello e e' perpendicolare al piano di scorrimento. 
 
@@ -202,6 +202,6 @@ Calcolando tutti i moti, la combinazione lineare genera una linea di CIR possibi
 ### Bipattino
 
 <!Diagramma CIR bipattino>
-![](./images/2023-09-24 11.57.excalidraw.png)
+![](../images/2023-09-24 11.57.excalidraw.png){: .center }
 
 Il CIR del bipattino e' la retta impropria che circola il bipattino.
