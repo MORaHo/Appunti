@@ -1,0 +1,2551 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../CdM%20-%20Lezione%202/">
+      
+      
+        <link rel="next" href="../CdM%20-%20Lezione%204/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
+    
+    
+      
+        <title>Analisi Cinematica - Parte 2 - Appunti Digitalizzati</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35e1ed30.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CComic+Sans:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Comic Sans"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra_css.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="cyan">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#analisi-cinematica-parte-2" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Appunti Digitalizzati" class="md-header__button md-logo" aria-label="Appunti Digitalizzati" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Appunti Digitalizzati
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Analisi Cinematica - Parte 2
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="cyan"  aria-label="Change to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Change to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="yellow"  aria-label="Change to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Change to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Esercitazione%203/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 3 - Reazioni Vincolari
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Esercitazione%204/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 4
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Esercitazione%205/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 5 - Azioni Interne
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Esercitazione%206/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 6
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Lezione%205/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 5 - Reazioni Vincolari
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Lezione%206/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 6 - Analisi Statica
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Lezione%207/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 7
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Lezione%208/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezioni 8 e 9 - Introduzione all concetto di Sforzo
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Lezione%209/" class="md-tabs__link">
+        
+  
+    
+  
+  CdM   Lezione 9
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../DE%20-%20Lezione%201/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 1
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Esercitazione%202/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 2
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Esercitazione%203/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 3
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Esercitazione%204/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 4
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Lezione%206/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 6 - Calcolo Termodinamico
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Lezione%207/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 7 - Relazioni e Coefficienti Misurabili
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Lezione%208/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 8 - Rapporti Termodinamici
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Lezione%209/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 9 - Sostane Pure
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Lezione%20x0/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 10 - Gas, Solidi e Liquidi Ideali
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Lezione%20x1/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 11 - Sistemi Aperti
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Esercitazione%201/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 1
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Esercitazione%202/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 2
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Esercitazione%203/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 3 - Thevenin e Norton
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Esercitazione%204/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 4
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Lezione%205/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 5 - Teorema di Thevenin
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Lezione%206/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 6 - Teorema di Norton
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Lezione%207/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 7 - Formula di Millman
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Lezione%208/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 8 - Regime Sinusoidale
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Lezione%209/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 9 - Corrente Alternata
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Lezione%20x0/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 10 - Reti AC
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../CdM%20-%20Esercitazione%201/" class="md-tabs__link">
+          
+  
+  Costruzione di Macchine
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Deutsche/DE%20-%20Lezione%201/" class="md-tabs__link">
+          
+  
+  Deutsche
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Fisica_Tecnica/FT%20-%20Esercitazione%201/" class="md-tabs__link">
+          
+  
+  Fisica Tecnica
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Ingegneria_Elettrica/PIE%20-%20L1/" class="md-tabs__link">
+          
+  
+  Ingegneria Elettrica
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Appunti Digitalizzati" class="md-nav__button md-logo" aria-label="Appunti Digitalizzati" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Appunti Digitalizzati
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Esercitazione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 3 - Reazioni Vincolari
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Esercitazione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Esercitazione%205/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 5 - Azioni Interne
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Esercitazione%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Lezione%205/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 5 - Reazioni Vincolari
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Lezione%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 6 - Analisi Statica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Lezione%207/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 7
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Lezione%208/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezioni 8 e 9 - Introduzione all concetto di Sforzo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Lezione%209/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CdM   Lezione 9
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DE%20-%20Lezione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Esercitazione%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Esercitazione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Esercitazione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Lezione%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 6 - Calcolo Termodinamico
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Lezione%207/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 7 - Relazioni e Coefficienti Misurabili
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Lezione%208/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 8 - Rapporti Termodinamici
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Lezione%209/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 9 - Sostane Pure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Lezione%20x0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 10 - Gas, Solidi e Liquidi Ideali
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Lezione%20x1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 11 - Sistemi Aperti
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Esercitazione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Esercitazione%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Esercitazione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 3 - Thevenin e Norton
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Esercitazione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Lezione%205/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 5 - Teorema di Thevenin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Lezione%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 6 - Teorema di Norton
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Lezione%207/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 7 - Formula di Millman
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Lezione%208/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 8 - Regime Sinusoidale
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Lezione%209/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 9 - Corrente Alternata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Lezione%20x0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 10 - Reti AC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_31" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_31" id="__nav_31_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Costruzione di Macchine
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_31_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_31">
+            <span class="md-nav__icon md-icon"></span>
+            Costruzione di Macchine
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Esercitazione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 1 - Vettori e Forze
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Esercitazione%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 2 - Analisi Cinematica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Lezione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1 - Introduzione
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Lezione%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 2 - Inizio del corso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Analisi Cinematica - Parte 2
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Analisi Cinematica - Parte 2
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#traslazione" class="md-nav__link">
+    Traslazione
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rotazione" class="md-nav__link">
+    Rotazione
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roto-traslazione" class="md-nav__link">
+    Roto-Traslazione
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esempio" class="md-nav__link">
+    Esempio
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#traiettoria-in-grande-vs-traiettoria-in-piccolo" class="md-nav__link">
+    Traiettoria in Grande vs. Traiettoria in piccolo
+  </a>
+  
+    <nav class="md-nav" aria-label="Traiettoria in Grande vs. Traiettoria in piccolo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#linearizzazione-del-moto-rigido" class="md-nav__link">
+    Linearizzazione del moto rigido
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applicazione" class="md-nav__link">
+    Applicazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Applicazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-piccolo-linearizzando" class="md-nav__link">
+    In piccolo (Linearizzando)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#movimento-rispetto-ad-un-vincolo" class="md-nav__link">
+    Movimento rispetto ad un vincolo
+  </a>
+  
+    <nav class="md-nav" aria-label="Movimento rispetto ad un vincolo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rotazione-intorno-a-o" class="md-nav__link">
+    Rotazione intorno a O
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#roto-traslazione-rigida-infinitesima" class="md-nav__link">
+    Roto-traslazione rigida infinitesima
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#centro-di-istantanea-rotazione-cir" class="md-nav__link">
+    Centro di Istantanea Rotazione (CIR)
+  </a>
+  
+    <nav class="md-nav" aria-label="Centro di Istantanea Rotazione (CIR)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#roto-traslazione-rigida-infinitesima_1" class="md-nav__link">
+    Roto-traslazione rigida infinitesima
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ricerca-del-cir" class="md-nav__link">
+    Ricerca del CIR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusioni" class="md-nav__link">
+    Conclusioni
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cir-dei-vincoli" class="md-nav__link">
+    CIR dei Vincoli
+  </a>
+  
+    <nav class="md-nav" aria-label="CIR dei Vincoli">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#incastro" class="md-nav__link">
+    Incastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cerniera" class="md-nav__link">
+    Cerniera
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pattino" class="md-nav__link">
+    Pattino
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#carello" class="md-nav__link">
+    Carello
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bipattino" class="md-nav__link">
+    Bipattino
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Lezione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 4 - Ripasso e Spiegazione Analitica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_32" >
+        
+          
+          <label class="md-nav__link" for="__nav_32" id="__nav_32_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Deutsche
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_32_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_32">
+            <span class="md-nav__icon md-icon"></span>
+            Deutsche
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Deutsche/DE%20-%20Lezione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Deutsche/placeholder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Placeholder header
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_33" >
+        
+          
+          <label class="md-nav__link" for="__nav_33" id="__nav_33_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Fisica Tecnica
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_33_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_33">
+            <span class="md-nav__icon md-icon"></span>
+            Fisica Tecnica
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fisica_Tecnica/FT%20-%20Esercitazione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 1 - Ripasso Concetti di Base
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fisica_Tecnica/FisTec%20-%20L1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1 - Introduzione
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fisica_Tecnica/FisTec%20-%20L2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fisica_Tecnica/FisTec%20-%20L3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fisica_Tecnica/FisTec%20-%20L4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 4 - Principio 0 della Termodinamica (Definizione della Temperatura)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Fisica_Tecnica/FisTec%20-%20L5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 5 - Entropia e Energia Interna
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_34" >
+        
+          
+          <label class="md-nav__link" for="__nav_34" id="__nav_34_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Ingegneria Elettrica
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_34_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_34">
+            <span class="md-nav__icon md-icon"></span>
+            Ingegneria Elettrica
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ingegneria_Elettrica/PIE%20-%20L1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1 - Introduzione alla Ingegneria Elettrica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ingegneria_Elettrica/PIE%20-%20L2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ingegneria_Elettrica/PIE%20-%20Lezione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ingegneria_Elettrica/PIE%20-%20Lezione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 4 - Ripasso e Teoremi Inutilmente Utili
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#traslazione" class="md-nav__link">
+    Traslazione
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rotazione" class="md-nav__link">
+    Rotazione
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roto-traslazione" class="md-nav__link">
+    Roto-Traslazione
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esempio" class="md-nav__link">
+    Esempio
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#traiettoria-in-grande-vs-traiettoria-in-piccolo" class="md-nav__link">
+    Traiettoria in Grande vs. Traiettoria in piccolo
+  </a>
+  
+    <nav class="md-nav" aria-label="Traiettoria in Grande vs. Traiettoria in piccolo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#linearizzazione-del-moto-rigido" class="md-nav__link">
+    Linearizzazione del moto rigido
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applicazione" class="md-nav__link">
+    Applicazione
+  </a>
+  
+    <nav class="md-nav" aria-label="Applicazione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-piccolo-linearizzando" class="md-nav__link">
+    In piccolo (Linearizzando)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#movimento-rispetto-ad-un-vincolo" class="md-nav__link">
+    Movimento rispetto ad un vincolo
+  </a>
+  
+    <nav class="md-nav" aria-label="Movimento rispetto ad un vincolo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rotazione-intorno-a-o" class="md-nav__link">
+    Rotazione intorno a O
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#roto-traslazione-rigida-infinitesima" class="md-nav__link">
+    Roto-traslazione rigida infinitesima
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#centro-di-istantanea-rotazione-cir" class="md-nav__link">
+    Centro di Istantanea Rotazione (CIR)
+  </a>
+  
+    <nav class="md-nav" aria-label="Centro di Istantanea Rotazione (CIR)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#roto-traslazione-rigida-infinitesima_1" class="md-nav__link">
+    Roto-traslazione rigida infinitesima
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ricerca-del-cir" class="md-nav__link">
+    Ricerca del CIR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusioni" class="md-nav__link">
+    Conclusioni
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cir-dei-vincoli" class="md-nav__link">
+    CIR dei Vincoli
+  </a>
+  
+    <nav class="md-nav" aria-label="CIR dei Vincoli">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#incastro" class="md-nav__link">
+    Incastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cerniera" class="md-nav__link">
+    Cerniera
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pattino" class="md-nav__link">
+    Pattino
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#carello" class="md-nav__link">
+    Carello
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bipattino" class="md-nav__link">
+    Bipattino
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="analisi-cinematica-parte-2">Analisi Cinematica - Parte 2<a class="headerlink" href="#analisi-cinematica-parte-2" title="Permanent link">&para;</a></h1>
+<p>La analisi cinematica spiega se un corpo rigido puo' o non puo' muoversi, e se un oggetto e' vincolato in maniera efficace o no.</p>
+<p>La costruzione delle macchine studio la statica per cui la analisi cinematica e' molto importante.</p>
+<p>E' facile capire capire se i vincoli e GdL, e' piu' difficile capire se questi vincoli sono vincolati in maniera efficace.</p>
+<p>Lezione:</p>
+<ul>
+<li>Definizione di moti traslatori, rotatori e roto-traslatori</li>
+<li>Concetto di centro di istantanea rotazione</li>
+</ul>
+<h3 id="traslazione">Traslazione<a class="headerlink" href="#traslazione" title="Permanent link">&para;</a></h3>
+<p>Movimento tale che tutte le direzione restano parallele ad esse. Il sistema non gira.</p>
+<h3 id="rotazione">Rotazione<a class="headerlink" href="#rotazione" title="Permanent link">&para;</a></h3>
+<p>Il corpo rigido si muove tale che un punto, il centro di rotazione resta fermo, cioe' spostamento e' nullo.</p>
+<h3 id="roto-traslazione">Roto-Traslazione<a class="headerlink" href="#roto-traslazione" title="Permanent link">&para;</a></h3>
+<p>Combinazione di rotazioni e traslazioni che puo' quasi sempre esser semplificato ad una rotazione.</p>
+<h3 id="esempio">Esempio<a class="headerlink" href="#esempio" title="Permanent link">&para;</a></h3>
+<!--Diagramma roto-traslazione-->
+<p><img alt="" class="center" src="../../images/2023-09-24%2011.19.excalidraw.png" /></p>
+<p>Questo processo si puo' fare con ogni coppia di punti, anche con differenze infinitesimi.</p>
+<p><b><ins>Passi</ins></b></p>
+<ol>
+<li>Linee AA' e BB'</li>
+<li>Mediante</li>
+<li>Linee perpendicolari</li>
+<li>Punti di convergenza c'e' il punto di rotazione</li>
+</ol>
+<h2 id="traiettoria-in-grande-vs-traiettoria-in-piccolo">Traiettoria in Grande vs. Traiettoria in piccolo<a class="headerlink" href="#traiettoria-in-grande-vs-traiettoria-in-piccolo" title="Permanent link">&para;</a></h2>
+<p>Le traiettorie in piccolo, sono le linee tra punti AA' e BB' per cambi infinitesimi. Invece le traiettorie in piccolo si possono linearizzare usando cambiamenti in piccolo perche' l'errore e' minuscolo.</p>
+<h3 id="linearizzazione-del-moto-rigido">Linearizzazione del moto rigido<a class="headerlink" href="#linearizzazione-del-moto-rigido" title="Permanent link">&para;</a></h3>
+<!--Diagramma linearizzazione-->
+<p><img alt="" class="center" src="../../images/2023-09-24%2011.25.excalidraw.png" /></p>
+<p>Lo spostamento e' <span class="arithmatex">\(\hat{u} = \vec{x}' - \vec{x}\)</span> cioe' u = <span class="arithmatex">\(\rho[cos(\phi + \theta) - cos(\phi)]\)</span> lungo l'asse x,  v = <span class="arithmatex">\(\rho[sin(\phi + \theta) - sin(\phi)]\)</span> lungo l'asse y e w = 0 lungo l'asse z. Questi sono i vettori di spostamento tra P e P'.</p>
+<p>Non c'e' linearita' tra u,v,w e l'angolo <span class="arithmatex">\(\theta\)</span>, perche' il cambio dipende da <span class="arithmatex">\(cos(\theta)\)</span> e <span class="arithmatex">\(sin(\theta)\)</span> che non sono lineari. Bisogna linearizzare.</p>
+<p>Per linearizzare bisogna portare tutti i cambiamenti all'infinitesimo <span class="arithmatex">\(d\theta\)</span>.</p>
+<p><span class="arithmatex">\(d\vec{u} = \frac{\partial \vec{u}}{\partial \theta}|_{\tiny{\theta = 0}} d\theta\)</span> </p>
+<p>du, dv, dw sono i componenti di spostamento di d<span class="arithmatex">\(\hat{u}\)</span> in piccolo (differenziale rispetto a <span class="arithmatex">\(\theta\)</span> come visto sopra.)</p>
+<p>$$
+\begin{equation}
+\left{
+    \begin{array}{lr}
+        du = \rho sin(\phi)d\theta = -yd\theta\
+        dv = \rho cos(\phi)d\theta = x d\theta\
+        dw = 0
+    \end{array}
+\right} = \small{\text{C'e' linearita tra du,dv,dw e l'angolo }\theta}
+\end{equation}$$
+Attraverso la derivazione si arriva ad una linearizzazione dove ogni derivata dipende linearmente dalla variabile perpendicolare.</p>
+<p>Utilizzazione la notazione vettoriale:</p>
+<p><span class="arithmatex">\(\underbrace{du}_{\text{Perpendicolare a }\hat{h} \text{ e } \vec{x}} = d\theta \underbrace{\hat{k}}_{\text{Versore di z}} \times \underbrace{\vec{x}}_{\text{Vettore iniziale}}\)</span></p>
+<p>In generale per una rotazione attorno ad un asse generale <span class="arithmatex">\(\vec{e_a}\)</span> </p>
+<p><span class="arithmatex">\(d\vec{u} = d\theta\vec{e_a} \times \vec{x} = d\vec{\theta} \times \vec{x}\)</span></p>
+<h3 id="applicazione">Applicazione<a class="headerlink" href="#applicazione" title="Permanent link">&para;</a></h3>
+<!--Diagramma applicazione-->
+<p><img alt="" class="center" src="../../images/2023-09-24%2011.37.excalidraw.png" /></p>
+<p>GdL<span class="arithmatex">\(_R\)</span> = 0 percio' e' un candidato ad esser isostatico puo' muoversi ma non deve.</p>
+<p>Lo spostamento in grande orizzontale a seguito della rotazione in grade <span class="arithmatex">\(\theta\)</span> <u>non</u> risulta esser compatibile con il vincolo del carello</p>
+<h4 id="in-piccolo-linearizzando">In piccolo (Linearizzando)<a class="headerlink" href="#in-piccolo-linearizzando" title="Permanent link">&para;</a></h4>
+<p><span class="arithmatex">\(<span class="arithmatex">\(\begin{equation} d\vec{u_p} = \frac{\partial\vec{u_p}}{\partial\theta}|_{\tiny{\theta = 0}} = \begin{cases} 0\:d\theta \\ l\: d\theta \end{cases} \end{equation}\)</span>\)</span> <span class="arithmatex">\(du\)</span> con <span class="arithmatex">\(dv\)</span> perche' dato che <span class="arithmatex">\(dv\)</span> non e' nullo il sistema si puo' muovere in grande, questo movimento causa un cambio lungo l'asse x che non sarebbe possibile dato il valore di <span class="arithmatex">\(du\)</span>, se tutte e due le situazioni fossero vere l'asta dovrebbe esser estensibile o la terra si dovrebbe muovere, ma dato che la terra non si muove e usiamo aste solide questo sistema non e' possibile in grande. Anche se non e' possibile in grande, <strong>matematicamente</strong> e' possibile in piccolo, cioe' causato da vibrazioni, questo significa che il sistema e' labile.
+I moti piccoli sono un problema matematico e nella vita reale. Un sistema labile non lo vuoi, quindi bisogna mitigarli.</p>
+<h2 id="movimento-rispetto-ad-un-vincolo">Movimento rispetto ad un vincolo<a class="headerlink" href="#movimento-rispetto-ad-un-vincolo" title="Permanent link">&para;</a></h2>
+<h4 id="rotazione-intorno-a-o">Rotazione intorno a O<a class="headerlink" href="#rotazione-intorno-a-o" title="Permanent link">&para;</a></h4>
+<p><span class="arithmatex">\(d\vec{u_p} = d\vec{\theta} \times (P-O)\)</span></p>
+<h4 id="roto-traslazione-rigida-infinitesima">Roto-traslazione rigida infinitesima<a class="headerlink" href="#roto-traslazione-rigida-infinitesima" title="Permanent link">&para;</a></h4>
+<p><span class="arithmatex">\(d\vec{u_p} = d\vec{u_o} + d\vec{\theta} \times (P-O)\)</span></p>
+<p>6 GdL
+- 3 componenti di <span class="arithmatex">\(d\vec{u_o}\)</span>
+- 3 componenti di <span class="arithmatex">\(d\theta\)</span></p>
+<p><strong>Da questo punto in poi per gli infinitesimi non saranno scritte le d, pero' non cambia il fatto che sono infinitesimi</strong></p>
+<h2 id="centro-di-istantanea-rotazione-cir">Centro di Istantanea Rotazione (CIR)<a class="headerlink" href="#centro-di-istantanea-rotazione-cir" title="Permanent link">&para;</a></h2>
+<h4 id="roto-traslazione-rigida-infinitesima_1">Roto-traslazione rigida infinitesima<a class="headerlink" href="#roto-traslazione-rigida-infinitesima_1" title="Permanent link">&para;</a></h4>
+<p><span class="arithmatex">\(d\vec{u_p} = d\vec{u_o} + d\vec{\theta} \times (P-O)\)</span></p>
+<p>In forma finita (ma piccola) si scrive come: (come detto prima non scriviamo piu' le d)
+<span class="arithmatex">\(\vec{u_p} = \vec{u_o} + \vec{\theta} \times (P-O)\)</span></p>
+<p>La rappresentazione nel piano xy:</p>
+<p><span class="arithmatex">\(u_p\)</span> = ==<span class="arithmatex">\(u_o\)</span>== <span class="arithmatex">\(+\)</span>==<span class="arithmatex">\(\theta\)</span>==<span class="arithmatex">\((y_P - y_o)\)</span> 
+<span class="arithmatex">\(v_p =\)</span> ==<span class="arithmatex">\(v_o\)</span>== <span class="arithmatex">\(+ \theta(x_P - x_o)\)</span></p>
+<!--Leggi in reader-mode perche' non si vede l'evidenziatore-->
+<p>I 3 simboli evidenziati sono i 3 gradi di liberta', 2 di movimento e una rotazione.</p>
+<p>Se <span class="arithmatex">\(\theta \neq 0\)</span>, in moto piccolo esiste sempre un asse di pura rotazione che interseca il piano di moto nel CENTRO DI ISTANTANEA ROTAZIONE (CIR)</p>
+<h3 id="ricerca-del-cir">Ricerca del CIR<a class="headerlink" href="#ricerca-del-cir" title="Permanent link">&para;</a></h3>
+<p>Se un punto P (solidale) fosse il CIR allora le componenti di spostamento sarebbe nulle. Cioe' se P fosse CIR e ci fosse una rotazione, le componenti che rappresenterebbero il movimento sarebbero nulle.</p>
+<p><span class="arithmatex">\(u_{CIR} = u_o - \theta(y_{CIR} - y_o) = 0\)</span>
+<span class="arithmatex">\(v_{CIR} = v_o + \theta(x_{CIR} - x_o) = 0\)</span></p>
+<p><span class="arithmatex">\(y_o\)</span> e <span class="arithmatex">\(x_o\)</span> sono coordinate di un punto di riferimento O solidale al corpo rigido, <span class="arithmatex">\(\theta\)</span> e' la rotazione attorno a O. Allora per trovare le coordinate del CIR si calcolerebbero:</p>
+<p><span class="arithmatex">\(x_{CIR} = \frac{-v_o}{\theta} + x_o\)</span>
+<span class="arithmatex">\(y_{CIR} = \frac{u_o}{\theta} + y_o\)</span></p>
+<p>Nel caso dove <span class="arithmatex">\(\theta\)</span> = 0, si sta descrivendo un sistema di movimento di traslazione pura, perche' CIR <span class="arithmatex">\(\rightarrow (\infty, \infty)\)</span> </p>
+<!--Diagramma CIR traslazione pura-->
+<p><img alt="" class="center" src="../../images/2023-09-24%2011.44.excalidraw.png" /></p>
+<p>Al contrario, se non si riesce a trovare un CIR comune significa che il corpo rigido e' fermo e non si puo' muovere</p>
+<h3 id="conclusioni">Conclusioni<a class="headerlink" href="#conclusioni" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Se esiste un CIR, il corpo rigido si puo' spostare (anche se solo in quantita' infinitesime)</li>
+<li>Se invece non esiste un CIR, il corpo rigido non si puo' muovere.</li>
+</ul>
+<p>La direzione del CIR e' molto importante.</p>
+<h2 id="cir-dei-vincoli">CIR dei Vincoli<a class="headerlink" href="#cir-dei-vincoli" title="Permanent link">&para;</a></h2>
+<h3 id="incastro">Incastro<a class="headerlink" href="#incastro" title="Permanent link">&para;</a></h3>
+<!--Diagramma calcoli-->
+<p><img alt="" class="center" src="../../images/2023-09-24%2011.46.excalidraw.png" /></p>
+<p>Non si può ' definire CIR per l'inastro perche' gli spostamenti sono nulli in tutti i casi.</p>
+<h3 id="cerniera">Cerniera<a class="headerlink" href="#cerniera" title="Permanent link">&para;</a></h3>
+<!--Diagramma calcoli-->
+<p><img alt="" class="center" src="../../images/2023-09-24%2011.48.excalidraw.png" /></p>
+<p>La cerniera se stessa e' il CIR dato dal fatto che il corpo rigido puo' girare intorno alla cerniera e basta.</p>
+<h3 id="pattino">Pattino<a class="headerlink" href="#pattino" title="Permanent link">&para;</a></h3>
+<!--Diagramma calcoli-->
+<p><img alt="" class="center" src="../../images/2023-09-24%2011.51.excalidraw.png" /></p>
+<p>Il pattino permette solo la traslazione pura, matematicamente e' equivalente ad una rotazione intorno ad un punto improprio all'infinito, percio' il CIR e' all'infinito nella direzione perpendicolare al piano.</p>
+<h3 id="carello">Carello<a class="headerlink" href="#carello" title="Permanent link">&para;</a></h3>
+<p>Il carello permette:
+- traslazione lungo la retta di scorrimento (rotazione attorno al punto all'infinito)
+- rotazione attorno al perno</p>
+<p>Dato che sono possibile due movimenti, bisogna considerare la combinazione di piu' moti simultaneamente, cioe' la combinazione lineare di tutti i moti possibile.</p>
+<!--Diagramma CIR-->
+<p><img alt="" class="center" src="../../images/2023-09-24%2011.55.excalidraw.png" /></p>
+<p>Calcolando tutti i moti, la combinazione lineare genera una linea di CIR possibile che attraversa il carello e e' perpendicolare al piano di scorrimento. </p>
+<h3 id="bipattino">Bipattino<a class="headerlink" href="#bipattino" title="Permanent link">&para;</a></h3>
+<!--Diagramma CIR bipattino-->
+<p><img alt="" class="center" src="../../images/2023-09-24%2011.57.excalidraw.png" /></p>
+<p>Il CIR del bipattino e' la retta impropria che circola il bipattino.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search", {"awesome-pages": null, "order_by": "filename"}, "navigation.path", "navigation.tabs", "navigation.sections", "toc.follow", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

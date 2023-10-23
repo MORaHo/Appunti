@@ -1,0 +1,2532 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../FisTec%20-%20L3/">
+      
+      
+        <link rel="next" href="../FisTec%20-%20L5/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
+    
+    
+      
+        <title>Lezione 4 - Principio 0 della Termodinamica (Definizione della Temperatura) - Appunti Digitalizzati</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35e1ed30.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CComic+Sans:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Comic Sans"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra_css.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="cyan">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lezione-4-principio-0-della-termodinamica-definizione-della-temperatura" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Appunti Digitalizzati" class="md-header__button md-logo" aria-label="Appunti Digitalizzati" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Appunti Digitalizzati
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lezione 4 - Principio 0 della Termodinamica (Definizione della Temperatura)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="cyan"  aria-label="Change to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Change to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="yellow"  aria-label="Change to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Change to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Esercitazione%203/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 3 - Reazioni Vincolari
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Esercitazione%204/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 4
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Esercitazione%205/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 5 - Azioni Interne
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Esercitazione%206/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 6
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Lezione%205/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 5 - Reazioni Vincolari
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Lezione%206/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 6 - Analisi Statica
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Lezione%207/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 7
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Lezione%208/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezioni 8 e 9 - Introduzione all concetto di Sforzo
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CdM%20-%20Lezione%209/" class="md-tabs__link">
+        
+  
+    
+  
+  CdM   Lezione 9
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../DE%20-%20Lezione%201/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 1
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Esercitazione%202/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 2
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Esercitazione%203/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 3
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Esercitazione%204/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 4
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Lezione%206/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 6 - Calcolo Termodinamico
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Lezione%207/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 7 - Relazioni e Coefficienti Misurabili
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Lezione%208/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 8 - Rapporti Termodinamici
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Lezione%209/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 9 - Sostane Pure
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Lezione%20x0/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 10 - Gas, Solidi e Liquidi Ideali
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../FisTec%20-%20Lezione%20x1/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 11 - Sistemi Aperti
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Esercitazione%201/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 1
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Esercitazione%202/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 2
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Esercitazione%203/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 3 - Thevenin e Norton
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Esercitazione%204/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 4
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Lezione%205/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 5 - Teorema di Thevenin
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Lezione%206/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 6 - Teorema di Norton
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Lezione%207/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 7 - Formula di Millman
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Lezione%208/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 8 - Regime Sinusoidale
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Lezione%209/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 9 - Corrente Alternata
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PIE%20-%20Lezione%20x0/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 10 - Reti AC
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Costruzione_di_Macchine/CdM%20-%20Esercitazione%201/" class="md-tabs__link">
+          
+  
+  Costruzione di Macchine
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Deutsche/DE%20-%20Lezione%201/" class="md-tabs__link">
+          
+  
+  Deutsche
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../FT%20-%20Esercitazione%201/" class="md-tabs__link">
+          
+  
+  Fisica Tecnica
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Ingegneria_Elettrica/PIE%20-%20L1/" class="md-tabs__link">
+          
+  
+  Ingegneria Elettrica
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Appunti Digitalizzati" class="md-nav__button md-logo" aria-label="Appunti Digitalizzati" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Appunti Digitalizzati
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Esercitazione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 3 - Reazioni Vincolari
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Esercitazione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Esercitazione%205/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 5 - Azioni Interne
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Esercitazione%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Lezione%205/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 5 - Reazioni Vincolari
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Lezione%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 6 - Analisi Statica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Lezione%207/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 7
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Lezione%208/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezioni 8 e 9 - Introduzione all concetto di Sforzo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CdM%20-%20Lezione%209/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CdM   Lezione 9
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DE%20-%20Lezione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Esercitazione%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Esercitazione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Esercitazione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Lezione%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 6 - Calcolo Termodinamico
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Lezione%207/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 7 - Relazioni e Coefficienti Misurabili
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Lezione%208/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 8 - Rapporti Termodinamici
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Lezione%209/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 9 - Sostane Pure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Lezione%20x0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 10 - Gas, Solidi e Liquidi Ideali
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FisTec%20-%20Lezione%20x1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 11 - Sistemi Aperti
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Esercitazione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Esercitazione%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Esercitazione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 3 - Thevenin e Norton
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Esercitazione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Lezione%205/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 5 - Teorema di Thevenin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Lezione%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 6 - Teorema di Norton
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Lezione%207/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 7 - Formula di Millman
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Lezione%208/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 8 - Regime Sinusoidale
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Lezione%209/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 9 - Corrente Alternata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PIE%20-%20Lezione%20x0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 10 - Reti AC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_31" >
+        
+          
+          <label class="md-nav__link" for="__nav_31" id="__nav_31_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Costruzione di Macchine
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_31_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_31">
+            <span class="md-nav__icon md-icon"></span>
+            Costruzione di Macchine
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Costruzione_di_Macchine/CdM%20-%20Esercitazione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 1 - Vettori e Forze
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Costruzione_di_Macchine/CdM%20-%20Esercitazione%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 2 - Analisi Cinematica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Costruzione_di_Macchine/CdM%20-%20Lezione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1 - Introduzione
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Costruzione_di_Macchine/CdM%20-%20Lezione%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 2 - Inizio del corso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Costruzione_di_Macchine/CdM%20-%20Lezione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analisi Cinematica - Parte 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Costruzione_di_Macchine/CdM%20-%20Lezione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 4 - Ripasso e Spiegazione Analitica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_32" >
+        
+          
+          <label class="md-nav__link" for="__nav_32" id="__nav_32_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Deutsche
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_32_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_32">
+            <span class="md-nav__icon md-icon"></span>
+            Deutsche
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Deutsche/DE%20-%20Lezione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Deutsche/placeholder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Placeholder header
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_33" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_33" id="__nav_33_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Fisica Tecnica
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_33_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_33">
+            <span class="md-nav__icon md-icon"></span>
+            Fisica Tecnica
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FT%20-%20Esercitazione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 1 - Ripasso Concetti di Base
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FisTec%20-%20L1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1 - Introduzione
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FisTec%20-%20L2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FisTec%20-%20L3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Lezione 4 - Principio 0 della Termodinamica (Definizione della Temperatura)
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 4 - Principio 0 della Termodinamica (Definizione della Temperatura)
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#equazione-di-stato" class="md-nav__link">
+    Equazione di Stato
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grandezze-termometriche" class="md-nav__link">
+    Grandezze Termometriche
+  </a>
+  
+    <nav class="md-nav" aria-label="Grandezze Termometriche">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grandezze" class="md-nav__link">
+    Grandezze
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scale-pratiche-di-temperatura" class="md-nav__link">
+    Scale Pratiche di Temperatura
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#standard-internazionale-base-della-temperatura" class="md-nav__link">
+    Standard Internazionale base della temperatura
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equazione-di-stato-esplicito" class="md-nav__link">
+    Equazione di stato esplicito
+  </a>
+  
+    <nav class="md-nav" aria-label="Equazione di stato esplicito">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#costante-del-gas" class="md-nav__link">
+    Costante del Gas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definizione-di-temperatura-e-entropia" class="md-nav__link">
+    Definizione di Temperatura e Entropia
+  </a>
+  
+    <nav class="md-nav" aria-label="Definizione di Temperatura e Entropia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interazioni-energetiche" class="md-nav__link">
+    Interazioni energetiche
+  </a>
+  
+    <nav class="md-nav" aria-label="Interazioni energetiche">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interazione-energetica-del-lavoro" class="md-nav__link">
+    Interazione Energetica del Lavoro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interazione-di-massa" class="md-nav__link">
+    Interazione di massa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interazione-di-temperatura" class="md-nav__link">
+    Interazione di Temperatura
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definizione-della-temperatura" class="md-nav__link">
+    Definizione della Temperatura
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FisTec%20-%20L5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 5 - Entropia e Energia Interna
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_34" >
+        
+          
+          <label class="md-nav__link" for="__nav_34" id="__nav_34_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Ingegneria Elettrica
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_34_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_34">
+            <span class="md-nav__icon md-icon"></span>
+            Ingegneria Elettrica
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ingegneria_Elettrica/PIE%20-%20L1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1 - Introduzione alla Ingegneria Elettrica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ingegneria_Elettrica/PIE%20-%20L2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ingegneria_Elettrica/PIE%20-%20Lezione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ingegneria_Elettrica/PIE%20-%20Lezione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 4 - Ripasso e Teoremi Inutilmente Utili
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#equazione-di-stato" class="md-nav__link">
+    Equazione di Stato
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grandezze-termometriche" class="md-nav__link">
+    Grandezze Termometriche
+  </a>
+  
+    <nav class="md-nav" aria-label="Grandezze Termometriche">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grandezze" class="md-nav__link">
+    Grandezze
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scale-pratiche-di-temperatura" class="md-nav__link">
+    Scale Pratiche di Temperatura
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#standard-internazionale-base-della-temperatura" class="md-nav__link">
+    Standard Internazionale base della temperatura
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equazione-di-stato-esplicito" class="md-nav__link">
+    Equazione di stato esplicito
+  </a>
+  
+    <nav class="md-nav" aria-label="Equazione di stato esplicito">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#costante-del-gas" class="md-nav__link">
+    Costante del Gas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definizione-di-temperatura-e-entropia" class="md-nav__link">
+    Definizione di Temperatura e Entropia
+  </a>
+  
+    <nav class="md-nav" aria-label="Definizione di Temperatura e Entropia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interazioni-energetiche" class="md-nav__link">
+    Interazioni energetiche
+  </a>
+  
+    <nav class="md-nav" aria-label="Interazioni energetiche">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interazione-energetica-del-lavoro" class="md-nav__link">
+    Interazione Energetica del Lavoro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interazione-di-massa" class="md-nav__link">
+    Interazione di massa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interazione-di-temperatura" class="md-nav__link">
+    Interazione di Temperatura
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definizione-della-temperatura" class="md-nav__link">
+    Definizione della Temperatura
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="lezione-4-principio-0-della-termodinamica-definizione-della-temperatura">Lezione 4 - Principio 0 della Termodinamica (Definizione della Temperatura)<a class="headerlink" href="#lezione-4-principio-0-della-termodinamica-definizione-della-temperatura" title="Permanent link">&para;</a></h1>
+<p>Data: 20-09-23</p>
+<p>Un equilibrio termico, meccanico e chimico creano l'equilibrio termodinamico. Se questa proprieta' sono omogenee nel sistema intero allora il sistema e' in equilibrio.</p>
+<h2 id="equazione-di-stato">Equazione di Stato<a class="headerlink" href="#equazione-di-stato" title="Permanent link">&para;</a></h2>
+<p>Un equazione di stato e' un equazione che e' funzione delle variabili indipendenti del sistema. Esistono per sistemi semplificati e semplici.</p>
+<p>La forma implicita di un equazione di stato e' <span class="arithmatex">\(f(x,y,z) = 0\)</span>, due variabili sono indipendenti e l'altra e' dipendente dalle altra due. E' uguale a zero perche' il sistema e' in equilibrio quindi non c'e' cambio.</p>
+<!-- Diagramma chiuso rigido, impermeabile-->
+<p><img alt="" class="center" src="../../images/2023-09-21%2017.48.excalidraw.png" /></p>
+<p>A,B,C con equilibrio caratterizzati da
+<span class="arithmatex">\(<span class="arithmatex">\(\underbrace{(x,y)}_{A};\underbrace{(x',y')}_{B};\underbrace{(x'',y'')}_{C}\)</span>\)</span>
+se A e C in equilibrio termico <span class="arithmatex">\(\implies \exists f_{AC}\)</span> tale che <span class="arithmatex">\(f_{AC}(x,y,x'',y'') = 0\)</span>
+se B e C in equilibrio termico <span class="arithmatex">\(\implies \exists f_{BC}\)</span> tale che <span class="arithmatex">\(f_{BC}(x',y',x'',y'') = 0\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(f_{AC}\neq f_{BC}\)</span>\)</span>
+<span class="arithmatex">\(y'' = g_{AC}(x,y,x'') = y'' = g_{BC}(x',y',x'') \implies g_{AC} = g_{BC}\)</span></p>
+<p>Se due sistemi A,B sono in equilibrio termico con C allora A e B sono in equilibrio termico secondo la variabile <span class="arithmatex">\(y''\)</span></p>
+<p>$$
+\begin{align<em>}
+g_{AC}(x,y,x'') &amp;= h_{A}(x,y) \cdot k(x'')\
+g_{BC}(x',y',x'') &amp;= h_{B}(x,y) \cdot k(x'')\
+T_{A} &amp;= T_{B}
+\end{align</em>}
+$$
+Temperature termodinamica di A e B che sono in equilibrio.</p>
+<h2 id="grandezze-termometriche">Grandezze Termometriche<a class="headerlink" href="#grandezze-termometriche" title="Permanent link">&para;</a></h2>
+<p>Le grandezze termometriche sono le proprieta' dipendenti da T, possono esser misure direttamente e precisamento con bassa incertezza di misura.</p>
+<p>Un termoscopio e' cosa viene usato per rilevare grandezze termodinamiche. Un termoscopio diventa un termometro quando e' dotato di scala di temperature + converzione da grandezza termometrica a temperatura.</p>
+<h3 id="grandezze">Grandezze<a class="headerlink" href="#grandezze" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Volume - &gt; <span class="arithmatex">\(\underbrace{T = T(V)}_{\text{Questa e' una equazione di stato}}\)</span> per elementi come Hg e composti come l'etanolo, pentano e toluene c'e' una correlazione. L'equazione <span class="arithmatex">\(V = V_o(1+\alpha t + \beta t^2)\)</span>, dove per Hg, <span class="arithmatex">\(\alpha = 1,8\times10^{-4}\cdot C^{-1}\)</span> e <span class="arithmatex">\(\beta = 5\times10^{-8}\dot C^{-2}\)</span>. t minuscolo e' la temperature in gradi celsius.</li>
+<li>Pressione - &gt; <span class="arithmatex">\(T = T(P)\)</span> questo e' usato in termometri a gas e.g. He, con l'equazione <span class="arithmatex">\(T = a+ bP +cP^2\)</span> </li>
+<li>F.E.M - &gt; <span class="arithmatex">\(T = T(f.e.m)\)</span> - Termocoppie</li>
+</ul>
+<!-- Diagramma termocoppia-->
+<p><img alt="" class="center" src="../../images/2023-09-21%2017.56.excalidraw.png" /></p>
+<ul>
+<li>Termoresistenza - &gt; <span class="arithmatex">\(T = T(R)\)</span> questi sono materiali che cambiano a carte resistenze hanno temperature specifiche.</li>
+</ul>
+<p>I termometri a irradiazione sono usati per temperature &gt; 1600<span class="arithmatex">\(^oC\)</span></p>
+<h2 id="scale-pratiche-di-temperatura">Scale Pratiche di Temperatura<a class="headerlink" href="#scale-pratiche-di-temperatura" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><span class="arithmatex">\(^oC\)</span></th>
+<th><span class="arithmatex">\(^oF\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>32</td>
+</tr>
+<tr>
+<td>100</td>
+<td>212</td>
+</tr>
+</tbody>
+</table>
+<p>t(<span class="arithmatex">\(^oC\)</span>) = <span class="arithmatex">\([t(^oF)-32]\)</span>
+t(<span class="arithmatex">\(^oF\)</span>) = <span class="arithmatex">\(t(^oC)\cdot1,8 + 32\)</span></p>
+<h2 id="standard-internazionale-base-della-temperatura">Standard Internazionale base della temperatura<a class="headerlink" href="#standard-internazionale-base-della-temperatura" title="Permanent link">&para;</a></h2>
+<p>Il STI-90 o ITS-90 (Scala Termometirca Internazionale o Internazional Temperature Scale) - &gt; Questa scala e' basata su 17 punti fissi</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>K</th>
+<th><span class="arithmatex">\(^oC\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>He-3</td>
+<td>Pv-T</td>
+<td>0,65-3,2K</td>
+<td>-272,50 % 269,50</td>
+</tr>
+<tr>
+<td>Punto triplo di H<span class="arithmatex">\(_2\)</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(''\)</span>   N</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>" O<span class="arithmatex">\(_2\)</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>" Ar</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>" Hg</td>
+<td></td>
+<td>234,3156</td>
+<td>-38,83444 <span class="arithmatex">\(\pm\)</span> 0,2mK</td>
+</tr>
+<tr>
+<td>" H<span class="arithmatex">\(_2\)</span>O</td>
+<td></td>
+<td>273,16K</td>
+<td>0,01 <span class="arithmatex">\(\pm\)</span> 0,1mK</td>
+</tr>
+<tr>
+<td>Punto di Fusione di Ga</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>" In</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>" Sn</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>" Zn</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>" Al</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>" Ag</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>" Au</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>" Cu</td>
+<td></td>
+<td>1357,77</td>
+<td>1084,62 <span class="arithmatex">\(\pm\)</span> 2,5mK</td>
+</tr>
+</tbody>
+</table>
+<h2 id="equazione-di-stato-esplicito">Equazione di stato esplicito<a class="headerlink" href="#equazione-di-stato-esplicito" title="Permanent link">&para;</a></h2>
+<p>Un esempio puo' esser <span class="arithmatex">\(f(P,V,T)\)</span> dove P puo' dipendere da V e T, V puo' dipendere da P e T, e T puo' dipendere da P e V</p>
+<h3 id="costante-del-gas">Costante del Gas<a class="headerlink" href="#costante-del-gas" title="Permanent link">&para;</a></h3>
+<p>La equazione di stato per i gas ideali e' <span class="arithmatex">\(PV = nRT\)</span>, R e' stata derivata dal grafico di PV vs. T per alcuni gas, la media degli inclini e' stata presa come il costante universale dei gas ideali.</p>
+<!-- Diagramma gas ideale-->
+<p><img alt="" class="center" src="../../images/2023-09-21%2018.01.excalidraw.png" /></p>
+<p>L'unico problema con il costante universale dei gas ideale e' che il gas ideale non esiste. Il gas costante anche se non funziona perfettamente puo' esser usato per approssimate molto bene, la approssimazione migliore per P basse e T alte, ma cose' alto e cose' basso cambia da gas in gas.</p>
+<p>Se si prende <span class="arithmatex">\(N = \frac{M}{M_m}\)</span> si puo' scrivere PV = NRT come PV = <span class="arithmatex">\(\frac{M}{M_m}\)</span>RT, facendo <span class="arithmatex">\(\frac{R}{M_m}\)</span> si ha R<span class="arithmatex">\(^*\)</span><span class="arithmatex">\([\frac{J}{kgK}]\)</span> che e' il costante del gas specifico. Dividendo R la massa molare e si trova il valore.</p>
+<p>Ora si ha PV = MR<span class="arithmatex">\(^*\)</span> T, se si divide per M si ha <span class="arithmatex">\(\frac{V}{M} = v^*\)</span>, questo e' il volume massico che e' l'inverso dalla densita'. Finalmente si ha <span class="arithmatex">\(\frac{P}{\rho} = R^*T\)</span></p>
+<p>Dato che F<span class="arithmatex">\(_p\)</span> = Mg = <span class="arithmatex">\(\rho\)</span>Vg, si trova che all'aumentare di T, <span class="arithmatex">\(\rho\)</span> diminuisce e percio' diminuisce il peso dell'unita' di volume dell'aria.</p>
+<h2 id="definizione-di-temperatura-e-entropia">Definizione di Temperatura e Entropia<a class="headerlink" href="#definizione-di-temperatura-e-entropia" title="Permanent link">&para;</a></h2>
+<p>Dato <span class="arithmatex">\(\Delta E_{TOT} = \Delta E_p + \Delta E_c + \Delta U \rightarrow\)</span> Flusso di energia attraverso il contorno</p>
+<p>Se il sistema e' fisso allora <span class="arithmatex">\(\Delta E_p = 0 e \Delta E_c = 0\)</span>
+<span class="arithmatex">\(\implies \Delta U = Q - L_{PdV} + \Phi_{M_i}\)</span> </p>
+<p>Dove <span class="arithmatex">\(\Phi_{M_i}\)</span> e' il flusso di massa, se contorno e' permeabile</p>
+<p>Per i cambiamenti infinitesimali si ha:
+<span class="arithmatex">\(<span class="arithmatex">\(dU = \delta Q - \delta L_{PdV} + \delta\Phi_M\)</span>\)</span></p>
+<p>f(U,x,y) = 0 e' la forma implicita della funzione di stato di una sistema semplice.</p>
+<p>Se M e' fissata allora la funzione esplicita' puo' esser U = U(T,V) o U = U(P,T) o anche U = U(T,P), se invece M non e' fissata allora puo' esser U = U(M,V,T)</p>
+<h3 id="interazioni-energetiche">Interazioni energetiche<a class="headerlink" href="#interazioni-energetiche" title="Permanent link">&para;</a></h3>
+<h4 id="interazione-energetica-del-lavoro">Interazione Energetica del Lavoro<a class="headerlink" href="#interazione-energetica-del-lavoro" title="Permanent link">&para;</a></h4>
+<p>Interazione energetica per variazione di volume, cioe' lo scambio energetico per variazione di volume ha l'equazione:</p>
+<p>$<span class="arithmatex">\(<span class="arithmatex">\(\delta L = PdV \rightarrow\)</span>\)</span>In questa equazione la pressione e' una grandezza intensiva Pa = <span class="arithmatex">\(\frac{N}{m^2}\)</span> mentre il volume e' una grandezza estensiva <span class="arithmatex">\([m^3]\)</span></p>
+<h4 id="interazione-di-massa">Interazione di massa<a class="headerlink" href="#interazione-di-massa" title="Permanent link">&para;</a></h4>
+<p>L'interazione energetica di massa o lo scambio di energia attraverso uno scambio di massa segue l'equazione:</p>
+<p><span class="arithmatex">\(<span class="arithmatex">\(\delta \Phi_M = \mu_i \cdot dN_i\)</span>\)</span>
+In questa equazione <span class="arithmatex">\(\mu_i [\frac{J}{mol}]\)</span> e' una grandezza intensiva mentre <span class="arithmatex">\(dN_i [mol]\)</span> e' una grandezza estensiva. </p>
+<p>Queste equazioni si possono riscrivere come:</p>
+<p><span class="arithmatex">\(<span class="arithmatex">\(\delta L = PdV \rightarrow dV = \frac{1}{p} \cdot \delta L\)</span>\)</span> Dove <span class="arithmatex">\(\frac{1}{p}\)</span> e' il fattore intergrante del lavoro</p>
+<p>Di nuovo:</p>
+<p><span class="arithmatex">\(<span class="arithmatex">\(\delta M_i = \mu_i \cdot dN_i \rightarrow dN_i = \frac{1}{\mu_i} \cdot \delta \Phi_{M_i}\)</span>\)</span>
+Dove <span class="arithmatex">\(\frac{1}{\mu_i}\)</span> e' il fattore integrante.</p>
+<h4 id="interazione-di-temperatura">Interazione di Temperatura<a class="headerlink" href="#interazione-di-temperatura" title="Permanent link">&para;</a></h4>
+<p>Per ultimo si have che <span class="arithmatex">\(<span class="arithmatex">\(\delta Q = TdS\)</span>\)</span>
+<span class="arithmatex">\(dS\)</span> e' il cambio infinitesimale della entropia. Di nuovo questa equazione puo' esser cambiata a:</p>
+<p><span class="arithmatex">\(<span class="arithmatex">\(dS = \frac{1}{T}\cdot\delta Q\)</span>\)</span>
+Dove <span class="arithmatex">\(\frac{1}{T}\)</span> e' il fattore integrante del calore.</p>
+<p>Un spostamento generalizzato (<span class="arithmatex">\(dX\)</span>) occorre solo se esistono un fattore di integrazione e uno spostamento impreciso che possono trovarlo.</p>
+<h3 id="definizione-della-temperatura">Definizione della Temperatura<a class="headerlink" href="#definizione-della-temperatura" title="Permanent link">&para;</a></h3>
+<p>Mettendo tutto insieme si ha:</p>
+<p><span class="arithmatex">\(<span class="arithmatex">\(dU = \delta Q - \delta L = \delta Q - PdV\)</span>\)</span>
+P e V sono variabili indipendenti allora U = U(T,V) e' equazione di stato dipendente da T e V.</p>
+<p>Si trova che <span class="arithmatex">\(dU = (\frac{\partial U}{\partial T})_V dT + (\frac{\partial U}{\partial V})_T dV\)</span>
+Riorganizzando si ha che <span class="arithmatex">\(<span class="arithmatex">\(\delta Q = (\frac{\partial U}{\partial T})_V dT + (\frac{\partial U}{\partial V})_T dV + PdV\)</span>\)</span>
+<mark class="hltr-orange">Cosa succede se il sistema ha pareti adiabatiche</mark>?</p>
+<p>Se il sistema ha pareti adiabatiche <span class="arithmatex">\(\delta Q = 0 = (\frac{\partial U}{\partial T})_V dT + (\frac{\partial U}{\partial V})_T dV + PdV = 0\)</span></p>
+<p>Si puo' scrivere: <span class="arithmatex">\((\frac{\partial U}{\partial T})_V dT + [(\frac{\partial U}{\partial V})_T + P] \cdot dV = 0\)</span></p>
+<p><span class="arithmatex">\((\frac{\partial U}{\partial T})_V dT = - [(\frac{\partial U}{\partial V})_T + P] \cdot dV\)</span> </p>
+<p><span class="arithmatex">\((\frac{\partial T}{\partial V})_{\delta Q = 0} = \frac{-(\frac{\delta U}{\delta V})_T + P}{(\frac{\partial U}{\partial T})_V} \rightarrow f(T,V)\)</span></p>
+<p>La soluzione a f(T,V) e' una famiglia di curve dove S = S(T,V) = cost, questo si puo' spiegare perche' dato che <span class="arithmatex">\(\delta Q = 0\)</span> a causa della pareti adiabatiche si ha che <span class="arithmatex">\(dS = 0\)</span>. Inoltre in questo caso Q dipende da T e V, ma il lavoro rapporte e' lineare quindi Q non cambia anche se T e V cambiano.</p>
+<p>Tutto questo ci diche che durante trasformazioni adiabatiche <span class="arithmatex">\(\delta Q = 0\)</span> e percio' <span class="arithmatex">\(dS = 0\)</span>, e S e' funzione di stato.</p>
+<p>Se prima avevamo U = U(T,V) ora si puo' scrivere anche che U = U(S,V) o U = U(S,T)</p>
+<p>Allora <span class="arithmatex">\(dU = (\frac{\partial U}{\partial S})_{V}\cdot dS + (\frac{\partial U}{\partial V})_S \cdot dV\)</span> e' un modo complicato per scrivere <span class="arithmatex">\(dU\)</span>. Ora avendo scritto la definizione di <span class="arithmatex">\(dU = \delta Q - PdV\)</span>  che si puo' riscrivere come <span class="arithmatex">\(\delta Q = dU + PdV\)</span> </p>
+<p><span class="arithmatex">\(\delta Q\)</span> = <span class="arithmatex">\(\underbrace{(\frac{\partial U}{\partial S})_{V}\cdot dS + (\frac{\partial U}{\partial V})_S \cdot dV}_{dU} + PdV\)</span> = <span class="arithmatex">\(\underbrace{(\frac{\partial U}{\partial S})_{V}\cdot dS}_{dS = 0\text{quindi tutto 0}} + \underbrace{[(\frac{\partial U}{\partial V})_S + P] \cdot dV}_{\delta Q = 0\text{quindi si devono cancellare}}\)</span></p>
+<p>Perche' la seconda parte bisogna che si cancelli allora <span class="arithmatex">\((\frac{\partial U}{\partial V})_S = -P \rightarrow P = -(\frac{\partial U}{\partial V})\)</span> Questa e' la definizione della pressione, il negativo del cambio dell'energia interna rispetto al cambio del volume.</p>
+<p>Si ha che: : 
+$$
+\begin{align<em>}
+\delta Q &amp;= \underbrace{(\frac{\partial U}{\partial S})<em _="||">S}</em> \cdot S\
+\delta Q &amp;= :::::TdS
+\end{align</em>}
+$$
+Tutto questo <span class="arithmatex">\(\implies T = (\frac{\partial U}{\partial S})_V\)</span> che e' la definizione della temperatura.temperatura.temperatura</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search", {"awesome-pages": null, "order_by": "filename"}, "navigation.path", "navigation.tabs", "navigation.sections", "toc.follow", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

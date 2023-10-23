@@ -1,0 +1,2525 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../FisTec%20-%20Lezione%209/">
+      
+      
+        <link rel="next" href="../FisTec%20-%20Lezione%20x1/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
+    
+    
+      
+        <title>Lezione 10 - Gas, Solidi e Liquidi Ideali - Appunti Digitalizzati</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.35e1ed30.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CComic+Sans:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Comic Sans"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/extra_css.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="cyan">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lezione-10-gas-solidi-e-liquidi-ideali" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Appunti Digitalizzati" class="md-header__button md-logo" aria-label="Appunti Digitalizzati" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Appunti Digitalizzati
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lezione 10 - Gas, Solidi e Liquidi Ideali
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="cyan"  aria-label="Change to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Change to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="yellow"  aria-label="Change to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Change to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../CdM%20-%20Esercitazione%203/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 3 - Reazioni Vincolari
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../CdM%20-%20Esercitazione%204/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 4
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../CdM%20-%20Esercitazione%205/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 5 - Azioni Interne
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../CdM%20-%20Esercitazione%206/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 6
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../CdM%20-%20Lezione%205/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 5 - Reazioni Vincolari
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../CdM%20-%20Lezione%206/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 6 - Analisi Statica
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../CdM%20-%20Lezione%207/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 7
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../CdM%20-%20Lezione%208/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezioni 8 e 9 - Introduzione all concetto di Sforzo
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../CdM%20-%20Lezione%209/" class="md-tabs__link">
+        
+  
+    
+  
+  CdM   Lezione 9
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../DE%20-%20Lezione%201/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 1
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../FisTec%20-%20Esercitazione%202/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 2
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../FisTec%20-%20Esercitazione%203/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 3
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../FisTec%20-%20Esercitazione%204/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 4
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../FisTec%20-%20Lezione%206/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 6 - Calcolo Termodinamico
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../FisTec%20-%20Lezione%207/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 7 - Relazioni e Coefficienti Misurabili
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../FisTec%20-%20Lezione%208/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 8 - Rapporti Termodinamici
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../FisTec%20-%20Lezione%209/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 9 - Sostane Pure
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 10 - Gas, Solidi e Liquidi Ideali
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../FisTec%20-%20Lezione%20x1/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 11 - Sistemi Aperti
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../PIE%20-%20Esercitazione%201/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 1
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../PIE%20-%20Esercitazione%202/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 2
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../PIE%20-%20Esercitazione%203/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 3 - Thevenin e Norton
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../PIE%20-%20Esercitazione%204/" class="md-tabs__link">
+        
+  
+    
+  
+  Esercitazione 4
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../PIE%20-%20Lezione%205/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 5 - Teorema di Thevenin
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../PIE%20-%20Lezione%206/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 6 - Teorema di Norton
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../PIE%20-%20Lezione%207/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 7 - Formula di Millman
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../PIE%20-%20Lezione%208/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 8 - Regime Sinusoidale
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../PIE%20-%20Lezione%209/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 9 - Corrente Alternata
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../PIE%20-%20Lezione%20x0/" class="md-tabs__link">
+        
+  
+    
+  
+  Lezione 10 - Reti AC
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Costruzione_di_Macchine/CdM%20-%20Esercitazione%201/" class="md-tabs__link">
+          
+  
+  Costruzione di Macchine
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Deutsche/DE%20-%20Lezione%201/" class="md-tabs__link">
+          
+  
+  Deutsche
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Fisica_Tecnica/FT%20-%20Esercitazione%201/" class="md-tabs__link">
+          
+  
+  Fisica Tecnica
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Ingegneria_Elettrica/PIE%20-%20L1/" class="md-tabs__link">
+          
+  
+  Ingegneria Elettrica
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Appunti Digitalizzati" class="md-nav__button md-logo" aria-label="Appunti Digitalizzati" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Appunti Digitalizzati
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Esercitazione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 3 - Reazioni Vincolari
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Esercitazione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Esercitazione%205/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 5 - Azioni Interne
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Esercitazione%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Lezione%205/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 5 - Reazioni Vincolari
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Lezione%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 6 - Analisi Statica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Lezione%207/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 7
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Lezione%208/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezioni 8 e 9 - Introduzione all concetto di Sforzo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CdM%20-%20Lezione%209/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CdM   Lezione 9
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DE%20-%20Lezione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FisTec%20-%20Esercitazione%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FisTec%20-%20Esercitazione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FisTec%20-%20Esercitazione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FisTec%20-%20Lezione%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 6 - Calcolo Termodinamico
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FisTec%20-%20Lezione%207/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 7 - Relazioni e Coefficienti Misurabili
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FisTec%20-%20Lezione%208/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 8 - Rapporti Termodinamici
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FisTec%20-%20Lezione%209/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 9 - Sostane Pure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Lezione 10 - Gas, Solidi e Liquidi Ideali
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 10 - Gas, Solidi e Liquidi Ideali
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ripasso" class="md-nav__link">
+    Ripasso
+  </a>
+  
+    <nav class="md-nav" aria-label="Ripasso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zona-miscele-sature" class="md-nav__link">
+    Zona Miscele Sature
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#liquidi-sottoraffreddati" class="md-nav__link">
+    Liquidi Sottoraffreddati
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regola-di-gibbs-delle-fasi" class="md-nav__link">
+    Regola di Gibbs delle Fasi
+  </a>
+  
+    <nav class="md-nav" aria-label="Regola di Gibbs delle Fasi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dimostrazione-della-regola" class="md-nav__link">
+    Dimostrazione della Regola
+  </a>
+  
+    <nav class="md-nav" aria-label="Dimostrazione della Regola">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equilibrio-termico" class="md-nav__link">
+    Equilibrio Termico
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equilibrio-meccanico" class="md-nav__link">
+    Equilibrio Meccanico
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equilibrio-chimico" class="md-nav__link">
+    Equilibrio Chimico
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equazione-di-clapeyron-clausius" class="md-nav__link">
+    Equazione di Clapeyron-Clausius
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gas-ideali-se-p_textbasso-e-t_textalto" class="md-nav__link">
+    Gas Ideali -&gt; se P\(_{\text{basso}}\) e T\(_{\text{alto}}\)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#determinazione-se-gas-ideale" class="md-nav__link">
+    Determinazione se gas ideale
+  </a>
+  
+    <nav class="md-nav" aria-label="Determinazione se gas ideale">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equazione-di-van-der-walls" class="md-nav__link">
+    Equazione di Van der Walls
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solidi-e-liquidi-ideali" class="md-nav__link">
+    Solidi e Liquidi Ideali
+  </a>
+  
+    <nav class="md-nav" aria-label="Solidi e Liquidi Ideali">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relazioni-approssimate-per-sostanze-pura" class="md-nav__link">
+    Relazioni Approssimate per Sostanze Pura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equazione-per-i-liquidi" class="md-nav__link">
+    Equazione per i liquidi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equazione-per-i-solidi" class="md-nav__link">
+    Equazione per i solidi
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagramma-t-h" class="md-nav__link">
+    Diagramma T-h
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FisTec%20-%20Lezione%20x1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 11 - Sistemi Aperti
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PIE%20-%20Esercitazione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PIE%20-%20Esercitazione%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PIE%20-%20Esercitazione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 3 - Thevenin e Norton
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PIE%20-%20Esercitazione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PIE%20-%20Lezione%205/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 5 - Teorema di Thevenin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PIE%20-%20Lezione%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 6 - Teorema di Norton
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PIE%20-%20Lezione%207/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 7 - Formula di Millman
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PIE%20-%20Lezione%208/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 8 - Regime Sinusoidale
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PIE%20-%20Lezione%209/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 9 - Corrente Alternata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PIE%20-%20Lezione%20x0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 10 - Reti AC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_31" >
+        
+          
+          <label class="md-nav__link" for="__nav_31" id="__nav_31_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Costruzione di Macchine
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_31_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_31">
+            <span class="md-nav__icon md-icon"></span>
+            Costruzione di Macchine
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Costruzione_di_Macchine/CdM%20-%20Esercitazione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 1 - Vettori e Forze
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Costruzione_di_Macchine/CdM%20-%20Esercitazione%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 2 - Analisi Cinematica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Costruzione_di_Macchine/CdM%20-%20Lezione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1 - Introduzione
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Costruzione_di_Macchine/CdM%20-%20Lezione%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 2 - Inizio del corso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Costruzione_di_Macchine/CdM%20-%20Lezione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analisi Cinematica - Parte 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Costruzione_di_Macchine/CdM%20-%20Lezione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 4 - Ripasso e Spiegazione Analitica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_32" >
+        
+          
+          <label class="md-nav__link" for="__nav_32" id="__nav_32_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Deutsche
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_32_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_32">
+            <span class="md-nav__icon md-icon"></span>
+            Deutsche
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Deutsche/DE%20-%20Lezione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Deutsche/placeholder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Placeholder header
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_33" >
+        
+          
+          <label class="md-nav__link" for="__nav_33" id="__nav_33_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Fisica Tecnica
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_33_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_33">
+            <span class="md-nav__icon md-icon"></span>
+            Fisica Tecnica
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Fisica_Tecnica/FT%20-%20Esercitazione%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esercitazione 1 - Ripasso Concetti di Base
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Fisica_Tecnica/FisTec%20-%20L1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1 - Introduzione
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Fisica_Tecnica/FisTec%20-%20L2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Fisica_Tecnica/FisTec%20-%20L3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Fisica_Tecnica/FisTec%20-%20L4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 4 - Principio 0 della Termodinamica (Definizione della Temperatura)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Fisica_Tecnica/FisTec%20-%20L5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 5 - Entropia e Energia Interna
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_34" >
+        
+          
+          <label class="md-nav__link" for="__nav_34" id="__nav_34_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Ingegneria Elettrica
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_34_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_34">
+            <span class="md-nav__icon md-icon"></span>
+            Ingegneria Elettrica
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ingegneria_Elettrica/PIE%20-%20L1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 1 - Introduzione alla Ingegneria Elettrica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ingegneria_Elettrica/PIE%20-%20L2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ingegneria_Elettrica/PIE%20-%20Lezione%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ingegneria_Elettrica/PIE%20-%20Lezione%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lezione 4 - Ripasso e Teoremi Inutilmente Utili
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ripasso" class="md-nav__link">
+    Ripasso
+  </a>
+  
+    <nav class="md-nav" aria-label="Ripasso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zona-miscele-sature" class="md-nav__link">
+    Zona Miscele Sature
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#liquidi-sottoraffreddati" class="md-nav__link">
+    Liquidi Sottoraffreddati
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regola-di-gibbs-delle-fasi" class="md-nav__link">
+    Regola di Gibbs delle Fasi
+  </a>
+  
+    <nav class="md-nav" aria-label="Regola di Gibbs delle Fasi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dimostrazione-della-regola" class="md-nav__link">
+    Dimostrazione della Regola
+  </a>
+  
+    <nav class="md-nav" aria-label="Dimostrazione della Regola">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equilibrio-termico" class="md-nav__link">
+    Equilibrio Termico
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equilibrio-meccanico" class="md-nav__link">
+    Equilibrio Meccanico
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equilibrio-chimico" class="md-nav__link">
+    Equilibrio Chimico
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equazione-di-clapeyron-clausius" class="md-nav__link">
+    Equazione di Clapeyron-Clausius
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gas-ideali-se-p_textbasso-e-t_textalto" class="md-nav__link">
+    Gas Ideali -&gt; se P\(_{\text{basso}}\) e T\(_{\text{alto}}\)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#determinazione-se-gas-ideale" class="md-nav__link">
+    Determinazione se gas ideale
+  </a>
+  
+    <nav class="md-nav" aria-label="Determinazione se gas ideale">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equazione-di-van-der-walls" class="md-nav__link">
+    Equazione di Van der Walls
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solidi-e-liquidi-ideali" class="md-nav__link">
+    Solidi e Liquidi Ideali
+  </a>
+  
+    <nav class="md-nav" aria-label="Solidi e Liquidi Ideali">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relazioni-approssimate-per-sostanze-pura" class="md-nav__link">
+    Relazioni Approssimate per Sostanze Pura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equazione-per-i-liquidi" class="md-nav__link">
+    Equazione per i liquidi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equazione-per-i-solidi" class="md-nav__link">
+    Equazione per i solidi
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagramma-t-h" class="md-nav__link">
+    Diagramma T-h
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="lezione-10-gas-solidi-e-liquidi-ideali">Lezione 10 - Gas, Solidi e Liquidi Ideali<a class="headerlink" href="#lezione-10-gas-solidi-e-liquidi-ideali" title="Permanent link">&para;</a></h1>
+<h2 id="ripasso">Ripasso<a class="headerlink" href="#ripasso" title="Permanent link">&para;</a></h2>
+<p><img alt="" src="../images/Pasted%20image%2020231020224912.png" /></p>
+<p>La differenza tra un vapore un gas è che il vapore durante compressione isoterma può esser portata a stato liquido invece i gas essendo dopo <span class="arithmatex">\(T_{CR}\)</span> anche se sono compressi in processi isotermi non possono diventare liquidi.</p>
+<h3 id="zona-miscele-sature">Zona Miscele Sature<a class="headerlink" href="#zona-miscele-sature" title="Permanent link">&para;</a></h3>
+<p>Le regola della leva per grandezze intensive (V,U,h,S)</p>
+<p><span class="arithmatex">\(h^{*} = (1-X)\cdot h^{*}_{LS}+X\cdot h^{*}_{VS}\)</span></p>
+<p><span class="arithmatex">\(X = \frac{M_{VS}}{M_{TOT}} \to h_{M}= h^{*}_{LS}+X\cdot\lambda\)</span></p>
+<p><span class="arithmatex">\(\lambda = h^{*}_{VS}-h^{*}_{LS}\)</span></p>
+<p><span class="arithmatex">\(X = \frac{h^{*}_{M} - h^{*}_{LS}}{h^{*}_{VS}-h^{*}_{LS}}\)</span></p>
+<h2 id="liquidi-sottoraffreddati">Liquidi Sottoraffreddati<a class="headerlink" href="#liquidi-sottoraffreddati" title="Permanent link">&para;</a></h2>
+<p>Pero liquidi sottoraffreddati e vapori sorriscaldati ci servono tabelle a due entrate.</p>
+<p>Per i liquid sottoraffreddati la dipendenze rispetto T è molto più forte della dipendenza da P.</p>
+<p>Quindi per ogni proprietà y (cioè v,u o h, y è solo un simbolo rappresentativo):</p>
+<p><span class="arithmatex">\(y \cong y_{f@T}\)</span></p>
+<p>Cioè il valore di v,u o h per ogni T può esser approssimato al valore del liquido saturo a quella temperatura, se il componente è liquido sottoraffreddato.</p>
+<p><img alt="" src="../images/Pasted%20image%2020231020224933.png" /></p>
+<p><span class="arithmatex">\(h^{*}_{L_{SAT}} = h^{*}_{LS} + v_{\tiny{LS}}(P-P_{SAT})\)</span></p>
+<p><span class="arithmatex">\(v_{\tiny{LS}} = \frac{1}{\rho}\)</span> per <span class="arithmatex">\(H_{2}O\)</span> è <span class="arithmatex">\(\simeq 1\cdot10^{-3} \frac{kg}{m^{3}}\)</span>
+Dato che è molto piccolo, vediamo che non avrà molto effetto.</p>
+<p>Trattando liquido sottoraffreddati come liquidi saturi, si fanno errori molto piccoli e quindi è quello che faremo.</p>
+<h2 id="regola-di-gibbs-delle-fasi">Regola di Gibbs delle Fasi<a class="headerlink" href="#regola-di-gibbs-delle-fasi" title="Permanent link">&para;</a></h2>
+<div class="arithmatex">\[f=\underbrace{ r }_{ componenti }+2-\underbrace{ M }_{ fasi }\]</div>
+<p><span class="arithmatex">\(f\)</span> è il numero di fasi indipendenti che possono esser variate e rimanere in equilibrio.</p>
+<h3 id="dimostrazione-della-regola">Dimostrazione della Regola<a class="headerlink" href="#dimostrazione-della-regola" title="Permanent link">&para;</a></h3>
+<p>Un sistema con <span class="arithmatex">\(r\)</span> componenti ed <span class="arithmatex">\(M\)</span> fasi in equilibrio termodinamico. Ricordiamo che l'equilibrio termico è un equilibrio termico, meccanico e chimico.</p>
+<h4 id="equilibrio-termico">Equilibrio Termico<a class="headerlink" href="#equilibrio-termico" title="Permanent link">&para;</a></h4>
+<p><span class="arithmatex">\(\underbrace{ T' }_{ \substack{\text{T di}\\\text{fase 1}} } = \underbrace{ T'' }_{  \substack{\text{T di}\\\text{fase 2}} } = T''' = \dots = T^{\tiny{(M)}} \:\} M-1\)</span> equazioni per M variabili</p>
+<h4 id="equilibrio-meccanico">Equilibrio Meccanico<a class="headerlink" href="#equilibrio-meccanico" title="Permanent link">&para;</a></h4>
+<p><span class="arithmatex">\(P' = P'' = P''' = \dots = P^{\tiny{(M)}} \:\}\)</span> M-1 equazioni di M variabili</p>
+<h4 id="equilibrio-chimico">Equilibrio Chimico<a class="headerlink" href="#equilibrio-chimico" title="Permanent link">&para;</a></h4>
+<div class="arithmatex">\[\left\{\begin{align}
+&amp;\mu_{1}' = \mu_{1}'' = \mu_{1}''' = \dots = \mu_{1}^{\tiny{(M)}} \\
+&amp;\vdots \\
+&amp;\mu_{r}' = \mu_{r}'' = \mu_{r}''' = \dots = \mu_{r}^{\tiny{(M)}}
+\end{align}\right\}\substack{\text{M-1 equazioni in M variabili}}\]</div>
+<p>r + 2 componenti</p>
+<p>Che generano <span class="arithmatex">\((M-1)(r+2)\)</span> equazioni soddisfatto da <span class="arithmatex">\(M(r+2)\)</span> variabili che con Gibbs-Duhem (equivalenza per cui possiamo scalare le variabili di 1) diventa <span class="arithmatex">\(M(r+1)\)</span></p>
+<p><span class="arithmatex">\((M-1)(r+2) \leq M(r+1)\)</span></p>
+<p>se = si determinano le soluzioni a priori.</p>
+<p><span class="arithmatex">\(\cancel{ Mr } + 2M - r - 2 \leq \cancel{ Mr }+M\)</span></p>
+<p><span class="arithmatex">\(2M - M \leq r + 2 \to M \leq r + 2\)</span>
+<span class="arithmatex">\(M\)</span> sono le fasi di equilibrio che devono esser minori delle r+2 fasi.</p>
+<p><span class="arithmatex">\(f = r+2 -M\)</span></p>
+<p>per <span class="arithmatex">\(H_{2}O \to r=1\)</span></p>
+<p>f = 3 - M</p>
+<ul>
+<li>se M = 1 <span class="arithmatex">\(\implies\)</span> P e T indipendenti</li>
+<li>se M = 2 <span class="arithmatex">\(\implies\)</span> P e T dipendenti <span class="arithmatex">\(P_{SAT} \leftrightarrow T_{SAT}\)</span> </li>
+<li>se M = 3 <span class="arithmatex">\(\implies\)</span> P = 0,611 kPa e T = 0,01<span class="arithmatex">\(^o\)</span>C</li>
+</ul>
+<p>Durante la transizione di fase <span class="arithmatex">\(\partial P\)</span> e <span class="arithmatex">\(\partial T\)</span> = 0, quindi <span class="arithmatex">\(c_{p}\to \infty\)</span>, <span class="arithmatex">\(\alpha_{\tiny{P}}\to \infty\)</span> e <span class="arithmatex">\(K_{\tiny{T}} \to \infty\)</span></p>
+<p><span class="arithmatex">\(c_{p} = T\left( \frac{ \partial S }{ \cancelto{ 0 }{ \partial T } } \right)_{P} = \infty\)</span> con <span class="arithmatex">\(ds \neq 0\)</span>
+<span class="arithmatex">\(\alpha_{\tiny{P}} = \frac{1}{v}\left( \frac{ \partial v }{ \cancelto{ 0 }{ \partial T  }} \right)_{P} = \infty\)</span> con <span class="arithmatex">\(dv \neq 0\)</span>
+<span class="arithmatex">\(K_{\tiny{T}} = -\frac{1}{v}\left( \frac{ \partial v }{ \cancelto{ 0 }{ \partial P } } \right)_{T} = \infty\)</span> con <span class="arithmatex">\(dv \neq 0\)</span></p>
+<h2 id="equazione-di-clapeyron-clausius">Equazione di Clapeyron-Clausius<a class="headerlink" href="#equazione-di-clapeyron-clausius" title="Permanent link">&para;</a></h2>
+<p>Ricavando da P e T</p>
+<p><img alt="" src="../images/Pasted%20image%2020231020224956.png" /></p>
+<p>Si può collegare la pendenza a <span class="arithmatex">\(\left( \frac{ \partial P }{ \partial T } \right) = f(\lambda,r,\theta)\)</span> al calore latente. Dove <span class="arithmatex">\(\lambda\)</span>,r e <span class="arithmatex">\(\theta\)</span> sono i calore latenti della molecola.</p>
+<p>Prendiamo un punto per semplicità tra L e V.</p>
+<p>Dato che è in equilibrio:</p>
+<p><span class="arithmatex">\(\mu'(T,P) = \mu''(T,P)\)</span></p>
+<p><span class="arithmatex">\(dP = P_{A}-P_{B} \to dT = T_{A}-T_{B}\)</span>
+<span class="arithmatex">\(d\mu' = \mu'_{B} - \mu'_{A} = d\mu'' = \mu_{B}'' - \mu_{A}''\)</span></p>
+<p>Gibbs-Duhem ci da:</p>
+<p><span class="arithmatex">\(d\mu' = v'dP - s'dT\)</span> e <span class="arithmatex">\(d\mu'' = v''dP - s''dT\)</span>
+<span class="arithmatex">\(v'dP - s'dT = v''dP - s''dT\)</span></p>
+<p><span class="arithmatex">\((v''-v')dP = (s''-s')dT\)</span> e <span class="arithmatex">\(\frac{ dP }{ dT } = \frac{s''-s'}{v''-v'}\cdot \frac{T}{T}\)</span></p>
+<p>se <span class="arithmatex">\(s'' = s_{\tiny{VS}},\: s' = s_{\tiny{LS}}, \: T = T_{\tiny{SAT}}, \: v'' = v_{\tiny{VS}},\text{e } \: v' = v_{\tiny{LS}}\)</span></p>
+<p>Allora per la evaporazione:
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{ dP }{ dT } = \frac{\lambda}{(v_{\tiny{VS}}^{*}-v_{\tiny{LS}}^{*})}\cdot \frac{1}{T_{\tiny{SAT}}}\)</span>\)</span>
+Per la sublimazione (solido -&gt; vapore):
+$$\frac{ dP }{ dT } = \frac{\theta}{(v_{\tiny{LS}}^{<em>}-v_{\tiny{S}}^{</em>})}\cdot \frac{1}{T_{\tiny{SAT}}}&gt;0 $$
+Per la fusione (solido -&gt; liquido)
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{ dP }{ dT } = \frac{r}{(v_{\tiny{LS}}^{*}-v_{\tiny{S}}^{*})}\cdot \frac{1}{T_{\tiny{FUS}}}\lessgtr 0\)</span>\)</span>
+per <span class="arithmatex">\(H_{2}O \to v_{\tiny{S}}^{*} &gt; v_{\tiny{LS}}^{*}\)</span> e r = 335<span class="arithmatex">\(\frac{kJ}{kg}\)</span>
+<span class="arithmatex">\(&lt;0\)</span> se <span class="arithmatex">\(v_{\tiny{S}}^{*} &gt; v_{\tiny{LS}}^{*}\)</span> come <span class="arithmatex">\(H_{2}O\)</span>
+<span class="arithmatex">\(&gt;0\)</span> se <span class="arithmatex">\(v_{\tiny{LS}}^{*} &lt; v_{\tiny{S}}^{*}\)</span> come <span class="arithmatex">\(CO_{2}\)</span></p>
+<h2 id="gas-ideali-se-p_textbasso-e-t_textalto">Gas Ideali -&gt; se P<span class="arithmatex">\(_{\text{basso}}\)</span> e T<span class="arithmatex">\(_{\text{alto}}\)</span><a class="headerlink" href="#gas-ideali-se-p_textbasso-e-t_textalto" title="Permanent link">&para;</a></h2>
+<p>Anche il vapore può esser trattato come gas ideale.</p>
+<p><img alt="" src="../images/Pasted%20image%2020231020223122.png" /></p>
+<p>Punti sono la percentuale se si trattasse come gas ideale, peggiora vicino a <span class="arithmatex">\(T_{\tiny{CR}}\)</span></p>
+<p>A P = 10kPa (<span class="arithmatex">\(H_{2}O_{\tiny{(g)}}\)</span>) può esser trattato come gas ideale.</p>
+<p>Nell'atmosfera <span class="arithmatex">\(P_{\tiny{H_{2}O}} &lt; 19kPa\)</span> quindi può esser trattato come gas ideali. Infatti ogni gas nell'atmosfera può esser trattato come gas ideale, significa che l'aria la consideriamo come gas ideale.</p>
+<h2 id="determinazione-se-gas-ideale">Determinazione se gas ideale<a class="headerlink" href="#determinazione-se-gas-ideale" title="Permanent link">&para;</a></h2>
+<p><span class="arithmatex">\(Z =\)</span> fattore di comprimibiltà</p>
+<p>per 1 mole di gas ideali si ha che <span class="arithmatex">\(PV = RT\)</span></p>
+<p><span class="arithmatex">\(Z\)</span> è definito, <span class="arithmatex">\(Z = \frac{PV}{RT} = \frac{V_{attuale}}{V_{ideale}}\)</span></p>
+<p><img alt="" src="../images/Pasted%20image%2020231020223203.png" /></p>
+<p>La pressione ridotta è <span class="arithmatex">\(P_{\tiny{R}} = \frac{P}{P_{\tiny{CR}}}\)</span>
+La temperatura ridotta è <span class="arithmatex">\(T_{\tiny{R}} = \frac{T}{T_{\tiny{CR}}}\)</span></p>
+<p>Volume specifico pseudo-ridotto -&gt; <span class="arithmatex">\(V_{\tiny{R}} = \frac{V_{attuale}}{RT_{\tiny{CR}}/P_{\tiny{CR}}}\)</span></p>
+<p>Ogni valore ridotto è la magnitudine della proprietà rispetto al punto critico di quella proprietà.</p>
+<p>Tutti gli aeriformi hanno lo stesso comportamento a pari <span class="arithmatex">\(T_{\tiny{R}}\)</span> e <span class="arithmatex">\(P_{\tiny{R}}\)</span></p>
+<p><img alt="" src="../images/Pasted%20image%2020231020223310.png" /></p>
+<p>Tutti i gas seguono le isoterme ridotte.</p>
+<p>Il massimo scostamento dal gas ideale è al punto critico, questo spiega perché le percentuali di deviazione vicino al punto critico erano più elevate.</p>
+<p>Tutti gli aeriformi dove <span class="arithmatex">\(P_{\tiny{R}} = \frac{P}{P_{\tiny{CR}}}\leq 0,2\)</span> indipendente da T può esser considerato come gas ideale.</p>
+<p>Tutti gli aeriformi dove <span class="arithmatex">\(T_{\tiny{R}} = \frac{T}{T_{\tiny{CR}}}\geq 2\)</span> indipendente da P sono esser considerati come gas ideali.</p>
+<p>L'ultimo punto si può vedere graficamente, come ogni punto sopra la curva più alta.</p>
+<h3 id="equazione-di-van-der-walls">Equazione di Van der Walls<a class="headerlink" href="#equazione-di-van-der-walls" title="Permanent link">&para;</a></h3>
+<p><span class="arithmatex">\(\left( P+\frac{a}{V^{2}} \right)(v-b) = RT\)</span></p>
+<p>La equazione di Van der Walls attacca le imperfezioni e interazioni tra le molecole che causano deviazioni nel risultato. Ci sono altre equazioni più precise.</p>
+<hr />
+<p><img alt="" src="../images/Pasted%20image%2020231020225107.png" /></p>
+<h2 id="solidi-e-liquidi-ideali">Solidi e Liquidi Ideali<a class="headerlink" href="#solidi-e-liquidi-ideali" title="Permanent link">&para;</a></h2>
+<p>I solidi e liquidi ideali sono indilatabili e incomprimibili.</p>
+<p><span class="arithmatex">\(\alpha_{\tiny{P}} = \frac{1}{V}\left( \frac{ \partial V }{ \partial T } \right)_{\tiny{P}} = 0\)</span>
+<span class="arithmatex">\(K_{\tiny{T}}= -\frac{1}{V}\left( \frac{ \partial V }{ \partial P } \right)_{\tiny{T}} = 0\)</span></p>
+<p><span class="arithmatex">\(c_{\tiny{p}} = c_{\tiny{v}} + \frac{\alpha_{\tiny{P}}^{2}\cdot V\cdot T}{K_{\tiny{T}}} \implies c_{\tiny{p}} = c_{\tiny{v}}\)</span> per solidi e e liquidi ideali</p>
+<p>per <span class="arithmatex">\(H_{2}O\)</span> <span class="arithmatex">\(c_{\tiny{p}}= c_{\tiny{v}}= c = 4186,8 \frac{J}{kg\cdot K} = 1 \frac{kcal}{kg\cdot K} \times H_{2}O\)</span> liquido</p>
+<p>per ghiaccio c = 0,5 <span class="arithmatex">\(\frac{kcal}{kg\cdot K}\)</span></p>
+<p>Per solidi e liquidi ideali:
+Diciamo che dipendono solo da T perché l'effetto di P non è molto grande
+<span class="arithmatex">\(du = cdT\)</span> e <span class="arithmatex">\(ds = c \cdot \frac{dT}{T}\)</span>
+<span class="arithmatex">\(\implies u = u(T)\)</span> e <span class="arithmatex">\(s= s(T)\)</span></p>
+<p>Questo si può vedere quando:<span class="arithmatex">\(<span class="arithmatex">\(\begin{align}
+h = u + Pv \to dh &amp;= du + Pdv + vdP = Tds - Pdv + Pdv + vdP \\
+&amp;= Tds + vdP = \boxed{cdT + vdP} = dh
+\end{align}\)</span>\)</span>
+Nel caso della acqua, c = 4186,8<span class="arithmatex">\(\frac{J}{kg\cdot K}\)</span> mentre <span class="arithmatex">\(v\)</span> che <span class="arithmatex">\(=\frac{1}{\rho}\)</span> è uguale a <span class="arithmatex">\(1\times10^{-3}\)</span> . Questi sono 6 gradi di differenza, molto alta, quindi diciamo che dipendono solo da T.</p>
+<p>Quindi invece di scrivere <span class="arithmatex">\(dh = cdT + vdP\)</span>, scriviamo <span class="arithmatex">\(dh = cdT\)</span> perché non è abbastanza diverso per avere effetto sui nostri calcoli. Se invece ci fosse un isoterma, allora dovremmo considerare <span class="arithmatex">\(vdP\)</span> anche se non ha effetti molto grandi.</p>
+<h3 id="relazioni-approssimate-per-sostanze-pura">Relazioni Approssimate per Sostanze Pura<a class="headerlink" href="#relazioni-approssimate-per-sostanze-pura" title="Permanent link">&para;</a></h3>
+<p>Solo per solidi e liquidi ideali, se no tabelle.</p>
+<p>Per questi calcoli <u>usiamo il punto critico come punto di riferimento</u>.</p>
+<p><span class="arithmatex">\(dh = \delta Q = vdP\)</span> e <span class="arithmatex">\(ds = \frac{\delta Q}{T}\)</span></p>
+<p><img alt="" src="../images/Pasted%20image%2020231020223951.png" />
+<img alt="" src="../images/Pasted%20image%2020231020223923.png" /></p>
+<p>Nei calcoli stiamo trovando il calore specifico per una sostanza rispetto al punto triplo attraverso una trasformazione isoterme e una trasformazione isobara.</p>
+<p>Per l'acqua c = 1 <span class="arithmatex">\(\frac{kcal}{kg \cdot K} \cong 4,186 \frac{kJ}{kg \cdot K}\)</span></p>
+<p><u>Calore latente di solidificazione</u>:</p>
+<p><span class="arithmatex">\({r \cong 80 \frac{kcal}{kg}}\)</span> = 335 <span class="arithmatex">\(\frac{kJ}{kg}\)</span></p>
+<h3 id="equazione-per-i-liquidi">Equazione per i liquidi<a class="headerlink" href="#equazione-per-i-liquidi" title="Permanent link">&para;</a></h3>
+<p><u>Tutto questo per dire:</u></p>
+<p>Usiamo il punto tripoli come riferimento per liquidi diversi da liquido saturo.</p>
+<p>Troviamo che:</p>
+<p><span class="arithmatex">\(\boxed{h_{\tiny{L}}^{*} = c_{\tiny{L}}(T_{\tiny{L}}-T_{\tiny{O}})}\)</span></p>
+<p>Dove <span class="arithmatex">\(c_{\tiny{L}}\)</span> é il calore specifico del liquido, <span class="arithmatex">\(T_{\tiny{L}}\)</span> è la temperatura del liquido e <span class="arithmatex">\(T_{\tiny{O}}\)</span> è la temperature di riferimento/ del punto triplo.</p>
+<p>Quindi per l'acqua che ha <span class="arithmatex">\(T_{\tiny{O}}\)</span> a <span class="arithmatex">\(\approx 0\)</span> significa che il l'entalpia è <span class="arithmatex">\(c \cdot T\)</span></p>
+<p>Troviamo anche che:</p>
+<p><span class="arithmatex">\(\boxed{s_{\tiny{L}}^{*} = c \ln \frac{T_{L}}{T_{o}}}\)</span></p>
+<p>Qui prendiamo la temperature assoluta perché è una relazione che quindi ci verrebbero dei numeri anomali se non prendessimo la temperature assoluta.</p>
+<h3 id="equazione-per-i-solidi">Equazione per i solidi<a class="headerlink" href="#equazione-per-i-solidi" title="Permanent link">&para;</a></h3>
+<p>Ricordiamo da sopra che r è il calore latente di solidificazione, a priori quindi sappiamo che dobbiamo togliere questo calore rispetto al punto triplo.</p>
+<p>Troviamo allora che:</p>
+<p><span class="arithmatex">\(\boxed{h^{*}_{\tiny{S}} = -r + c_{\tiny{S}}(T_{\tiny{S}}-T_{\tiny{O}})}\)</span></p>
+<p>Invece la entropia:</p>
+<p><span class="arithmatex">\(\boxed{s_{\tiny{S}}^{*} = -\frac{r}{T_{\tiny{O}}}+c_{\tiny{S}}\ln \frac{T_{\tiny{S}}}{T_{\tiny{O}}}}\)</span></p>
+<h2 id="diagramma-t-h">Diagramma T-h<a class="headerlink" href="#diagramma-t-h" title="Permanent link">&para;</a></h2>
+<p>Sapendo queste equazione possiamo ricavare il diagramma T-h:</p>
+<p><img alt="" src="../images/Pasted%20image%2020231020224522.png" /></p>
+<p>La pendenza di S è il doppio della pendenza a L, questo è perché <span class="arithmatex">\(\frac{ \partial h }{ \partial T } \propto c\)</span>. Nell'acqua come abbiamo visto prima c<span class="arithmatex">\(_{\tiny{S}}\)</span> è .5 invece c<span class="arithmatex">\(_{\tiny{l}}\)</span> è 1. </p>
+<p><img alt="" src="../images/Pasted%20image%2020231020225143.png" /></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["search", {"awesome-pages": null, "order_by": "filename"}, "navigation.path", "navigation.tabs", "navigation.sections", "toc.follow", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
